@@ -36,13 +36,13 @@ function Navbar() {
 <div className="offcanvas-body navbar-color navbar-texto">
 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
   <li className="nav-item ">
-  <a className="nav-link active" aria-current="page" href="#">Home</a>
+  <a className="nav-link active" style={{color:"#1B3659", fontSize:"20px"}} aria-current="page" href="#">Home</a>
   </li>
   <li className="nav-item">
-  <a className="nav-link active" aria-current="page" href="#">Nosotros</a>
+  <a className="nav-link active" style={{color:"#1B3659", fontSize:"20px"}} aria-current="page" href="#">Nosotros</a>
   </li>
   <li className="nav-item">
-  <a className="nav-link active" aria-current="page" href="#">Contacto</a>
+  <a className="nav-link active" style={{color:"#1B3659", fontSize:"20px"}} aria-current="page" href="#">Contacto</a>
   </li>
 </ul>
 </div>

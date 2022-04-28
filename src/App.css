@@ -1,5 +1,6 @@
 body{
   font-family: Roboto;
+  background-color: #ffffff;
 }
 
 
@@ -11,8 +12,9 @@ body{
   --color-white:#fff;
   --color-light:#F2AB27;
   --color-esqueleto:#5EB2FC;
- 
+  --color-naranja:#F2522E;
 }
+
 
 
 
