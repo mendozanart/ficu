@@ -1,0 +1,20 @@
+.banner-image{
+    background-image: url(../home/img/cultura2.jpg);
+    background-size: cover;
+    max-height: 100vh;
+  }
+  
+  
+  .tituloheader{
+    text-align: left;
+    color:rgb(113, 0, 165) ;
+    font-size: 9vh;
+  
+  }
+  
+  .subtituloheader{
+    text-align: left;
+    color:rgba(85, 85, 85, 0.644) ;
+    margin-top: 2vh;
+    font-size: 3vh;
+  }

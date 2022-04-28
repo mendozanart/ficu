@@ -1,3 +1,37 @@
+body{
+  font-family: Roboto;
+}
+
+
+:root{
+  --color-bg:#1B3659;
+  --color-bg-variant: #F20574;
+  --color-primary:#6D33A6;
+  --color-primary-variant:#0477BF;
+  --color-white:#fff;
+  --color-light:#F2AB27;
+  --color-esqueleto:#5EB2FC;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
