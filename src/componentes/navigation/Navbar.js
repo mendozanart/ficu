@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import logo from '../navigation/logo1.png'
+import { Link as LinkRouter} from "react-router-dom";
+import logo from '../navigation/logo2.png'
 import './navbar.css'
 
 
@@ -25,27 +26,15 @@ function Navbar() {
             : "colorChange navbar navbar-light fixed-top"
         }>
 <div className="container-fluid">
+<LinkRouter to="/home">
 <img src={logo} alt='logo' width='95'/>
-<button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-<span className="navbar-toggler-icon"></span>
-</button>
-<div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-<div className="offcanvas-header navbar-color">
-<button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-</div>
-<div className="offcanvas-body navbar-color navbar-texto">
-<ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-  <li className="nav-item ">
-  <a className="nav-link active" style={{color:"#1B3659", fontSize:"20px"}} aria-current="page" href="#">Home</a>
-  </li>
-  <li className="nav-item">
-  <a className="nav-link active" style={{color:"#1B3659", fontSize:"20px"}} aria-current="page" href="#">Nosotros</a>
-  </li>
-  <li className="nav-item">
-  <a className="nav-link active" style={{color:"#1B3659", fontSize:"20px"}} aria-current="page" href="#">Contacto</a>
-  </li>
-</ul>
-</div>
+</LinkRouter>
+
+<div className='d-flex' style={{justifyContent:"right", alignItems:"right"}}>
+<LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/">Home</LinkRouter>
+<a className="nav-link active" style={{color:"#ffffff", fontSize:"18px"}} aria-current="page" href="#">Nosotros</a>
+<a className="nav-link active"  aria-current="page" href="#">Únete</a>
+<LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/pcontacto">Contacto</LinkRouter>
 </div>
 </div>
 </nav>

@@ -5,8 +5,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import logoacnur from "./acnur.svg";
-import logooim from "./oim.svg";
+import logoacnur from "./acnur2.svg";
+import logooim from "./oim2.svg";
 
 function Footer() {
   return (
@@ -62,7 +62,7 @@ function Footer() {
                   title="Facebook"
                   target="_blank"
                 >
-                  <FacebookIcon sx={{ color: "#1B3659", margin: "5px" }} />
+                  <FacebookIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
                 <a
                   href="https://www.instagram.com/somosficu/"
@@ -71,7 +71,7 @@ function Footer() {
                   title="Instagram"
                   target="_blank"
                 >
-                  <InstagramIcon sx={{ color: "#1B3659", margin: "5px" }} />
+                  <InstagramIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
                 <a
                   href="https://www.linkedin.com/company/somosficu/"
@@ -80,7 +80,7 @@ function Footer() {
                   title="Instagram"
                   target="_blank"
                 >
-                <LinkedInIcon sx={{ color: "#1B3659", margin: "5px" }} />
+                <LinkedInIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
                 <a
                   href="https://mobile.twitter.com/somosficu"
@@ -89,7 +89,7 @@ function Footer() {
                   title="Instagram"
                   target="_blank"
                 >
-                <TwitterIcon sx={{ color: "#1B3659", margin: "5px" }} />
+                <TwitterIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
               </section>
             </div>
@@ -98,9 +98,10 @@ function Footer() {
 
 
         <div className='mt-5 mb-3' style={{alignItems:"center"}}>
-            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#1B3659', fontWeight:'bold'}}>Home</a>
-            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#1B3659', fontWeight:'bold'}}>Nosotros</a>
-            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#1B3659', fontWeight:'bold'}}>Contacto</a>
+            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Home</a>
+            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Nosotros</a>
+            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Únete</a>
+            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Contacto</a>
         </div>
 
         <div class="footer-texto text-center p-3">

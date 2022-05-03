@@ -1,10 +1,14 @@
 import React from "react";
 import "./home.css";
 import CarouselHome from "../carousel/CarouselHome";
-import home1 from "./img/home (4).jpg";
-import home2 from "./img/home (5).jpg";
+import home1 from "./img/ficu1.jpg";
+import home2 from "./img/ficu2.jpg";
 import home4 from "./img/home (7).jpg";
 import Cards from "../cards/Cards";
+import Logo from "../navigation/logo2.png";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import 'animate.css';
+
 
 function Home() {
   return (
@@ -13,14 +17,12 @@ function Home() {
 
       <div className="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
         <div className="content-header">
-          <div className="textoheader col-sm-6 col-md-6 col-lg-5">
-            <h1 className="tituloheader">
-              <strong></strong>
-            </h1>
-            <h4 className="subtituloheader"></h4>
-          </div>
+            <h1 className="animate__animated animate__fadeInDown tituloheader">Somos Migrantes</h1>
+            <h3 className="animate__animated animate__fadeInDown subtituloheader">Somos FICU</h3>
+            <KeyboardArrowDownIcon sx={{ color: "#ffffff", width:"5vw", marginTop:"5vh" }} />
         </div>
       </div>
+
 
       {/*********** Presentacion **************/}
 
@@ -30,7 +32,8 @@ function Home() {
             <div class="content-container content-theme-dark">
               <div class="content-inner">
                 <div class="content-center">
-                  <h1>ficu</h1>
+                  {/*<h1>ficu</h1>*/}
+                  <img src={Logo} alt="logo" width="400" />
                   <p>
                     es una fundación cuyo objetivo es servir de puente para que
                     migrantes y refugiados puedan insertarse en la sociedad de
@@ -134,31 +137,21 @@ function Home() {
 
           {/*********** Frase  ***********/}
 
-          {/*<h4 className="subtituloheader">
-            “Somos una especie en viaje. No tenemos pertenencias sino equipaje”
-          </h4>
-  <p className="tituloheader">Jorge Drexler</p>*/}
-
-          {/************ Form ***********/}
-
-
-        <div className="container-presentacion">
-          <section class="section top-section">
-            <div class="content-container content-theme-dark">
-              <div class="content-inner">
-                <div class="content-center">
-                  <p>“Somos una especie en viaje. No tenemos pertenencias sino equipaje”</p>
-                  <p>
-                  Jorge Drexler
-                  </p>
+          <div className="container-presentacion">
+            <section class="section top-section">
+              <div class="content-container content-theme-dark">
+                <div class="content-inner">
+                  <div class="content-center">
+                    <p>
+                      “Somos una especie en viaje. No tenemos pertenencias sino
+                      equipaje”
+                    </p>
+                    <p>Jorge Drexler</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
           </div>
-
-
-
         </div>
       </div>
     </>
