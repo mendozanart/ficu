@@ -3,7 +3,7 @@ import "./home.css";
 import Carousel from "../carousel/Carousel";
 import home1 from "./img/ficu1.jpg";
 import home2 from "./img/ficu2.jpg";
-import home4 from "./img/home (7).jpg";
+import home4 from "./img/ficu8.jpg";
 import Cards from "../cards/Cards";
 import Logo from "../navigation/logo2.png";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';

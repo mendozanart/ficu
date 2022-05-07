@@ -2,7 +2,7 @@ import React from "react";
 import "./nosotros.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "animate.css";
-
+import Cards2 from '../cards/Cards2'
 
 
 
@@ -21,9 +21,46 @@ function Nosotros() {
         </div>
       </div>
 
-      {/*********** Banner **************/}
 
-      
+      {/*********** Banner2 **************/}
+
+
+
+
+
+      {/*********** Cards **************/}
+
+    <div className="cards">
+
+    <div className="container-profile">
+      <div className="profile-photo">
+      <h3 className="profile-title">Merwin Molina</h3>
+        <h4 className="profile-subtitle">Secretario</h4>
+        <p className="profile-p">Venezolano</p>
+      </div>
+    </div>
+
+    <div className="container-profile">
+      <div className="profile-photo">
+      <h3 className="profile-title">Merwin Molina</h3>
+        <h4 className="profile-subtitle">Secretario</h4>
+        <p className="profile-p">Venezolano</p>
+      </div>
+    </div>
+
+    <div className="container-profile">
+      <div className="profile-photo">
+      <h3 className="profile-title">Merwin Molina</h3>
+        <h4 className="profile-subtitle">Secretario</h4>
+        <p className="profile-p">Venezolano</p>
+      </div>
+    </div>
+
+    
+
+
+
+    </div>
 
 
 

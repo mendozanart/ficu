@@ -31,7 +31,7 @@ function Carousel() {
         <div className="content-header">
             <h1 className="animate__animated animate__fadeInDown tituloheader">Somos Migrantes</h1>
             <h3 className="animate__animated animate__fadeInDown subtituloheader">Somos FICU</h3>
-            <KeyboardArrowDownIcon sx={{ color: "#ffffff", width:"20vw", marginTop:"80vh", marginLeft:"40vw" }} />
+            <KeyboardArrowDownIcon sx={{ color: "#ffffff", width:"20vw", marginTop:"70vh", marginLeft:"40vw" }} />
         </div>
       </div>
 
