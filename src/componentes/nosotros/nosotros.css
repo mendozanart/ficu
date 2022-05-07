@@ -1,0 +1,50 @@
+
+
+
+.banner-image-nosotros{
+    background-image: url(../home/img/ficu2.jpg);
+    background-size: cover;
+    max-height: 90vh;
+  }
+  
+  
+  .tituloheader-nosotros{
+    color:#ffffff9a ;
+    font-size: 20vh;
+    font-weight: 800;
+    color: transparent;
+    text-shadow: 0 0 1.3px rgba(255, 255, 255, 0.534);
+    margin-top: 70vh;
+  }
+  
+  .subtituloheader-contacto{
+    color:#ffffff ;
+    font-size: 6vh;
+    font-weight: 400;
+    color: transparent;
+    text-shadow: 0 0 1.3px rgb(255, 255, 255);
+  }
+  
+  .p-contacto{
+    font-size: 15px;
+    text-align: left !important;
+    margin-left: 10vw;
+    color: #000000;
+    margin-right: 40px;
+  }
+  
+  .t-contacto{
+    text-align: left !important;
+    margin-top: 23vh;
+    margin-left: 10vw;
+    font-size: 25px;
+    font-weight: 300;
+    color: #000000;
+  }
+  
+  .parrafo-contacto{
+    text-align: left !important;
+    margin-left: 10vw;
+    color: #000000;
+    margin-right: 40px;
+  }
