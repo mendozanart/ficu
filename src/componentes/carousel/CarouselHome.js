@@ -5,6 +5,7 @@ import cultura3 from './img/cultura (3).jpg'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import '../home/home.css'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 
 function CarouselHome() {
@@ -42,6 +43,7 @@ function CarouselHome() {
         <div>
           {" "}
           <img src={cultura1} alt='cultura' className="d-block w-100"/>
+          
         </div>
         <div>
           {" "}

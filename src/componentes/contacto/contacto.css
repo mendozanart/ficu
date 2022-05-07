@@ -27,8 +27,8 @@ html{    background:url("http://www.philippefercha.com/img/home-page.jpg") no-re
   float: left;
   left: 50%;
   position: absolute;
-  margin-top:30px;
-  margin-left: -260px;
+  margin-top:15vh;
+  margin-left: 150px;
 }
 
 .feedback-input {
@@ -47,19 +47,19 @@ html{    background:url("http://www.philippefercha.com/img/home-page.jpg") no-re
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   border: 0px solid transparent;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #1B3659;
 }
 
 .feedback-input:focus{
   background: #fff;
   box-shadow: 0;
-  color: #000;
+  color: #1B3659;
   outline: none;
   padding: 13px 13px 13px 13px;
 }
 
 .focused{
-  color:#000;
+  color:#1B3659;
   border:#30aed6 solid 2px;
 }
 
@@ -81,7 +81,7 @@ input:focus, textarea:focus {
   width: 100%;
   border: 0px solid transparent;
   cursor:pointer;
-  background-color: #000;
+  background-color: #0477BF;
   color:white;
   font-size:18px;
   padding-top:22px;
@@ -95,8 +95,8 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
   background-color: #fff;
-  color: #000;
-  border: 1px solid #000;
+  color: #0477BF;
+  border: 1px solid #0477BF;
 }
   
 .submit:hover {
@@ -128,4 +128,59 @@ input:focus, textarea:focus {
     padding-left: 3%;
     padding-right: 3%;
   }
+}
+
+
+
+
+
+
+
+
+.banner-image-contacto{
+  background-image: url(../home/img/banner1.jpg);
+  background-size: cover;
+  max-height: 90vh;
+}
+
+
+.tituloheader-contacto{
+  color:#ffffff ;
+  font-size: 10vh;
+  font-weight: 800;
+  color: transparent;
+  text-shadow: 0 0 1.3px rgb(255, 255, 255);
+  margin-top: 40vh;
+}
+
+.subtituloheader-contacto{
+  color:#ffffff ;
+  font-size: 6vh;
+  font-weight: 400;
+  color: transparent;
+  text-shadow: 0 0 1.3px rgb(255, 255, 255);
+}
+
+.p-contacto{
+  font-size: 15px;
+  text-align: left !important;
+  margin-left: 10vw;
+  color: #000000;
+  margin-right: 40px;
+}
+
+.t-contacto{
+  text-align: left !important;
+  margin-top: 23vh;
+  margin-left: 10vw;
+  font-size: 25px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.parrafo-contacto{
+  text-align: left !important;
+  margin-left: 10vw;
+  color: #000000;
+  margin-right: 40px;
 }

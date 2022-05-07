@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import CarouselHome from "../carousel/CarouselHome";
+import Carousel from "../carousel/Carousel";
 import home1 from "./img/ficu1.jpg";
 import home2 from "./img/ficu2.jpg";
 import home4 from "./img/home (7).jpg";
@@ -15,13 +15,11 @@ function Home() {
     <>
       {/*********** Banner **************/}
 
-      <div className="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
-        <div className="content-header">
-            <h1 className="animate__animated animate__fadeInDown tituloheader">Somos Migrantes</h1>
-            <h3 className="animate__animated animate__fadeInDown subtituloheader">Somos FICU</h3>
-            <KeyboardArrowDownIcon sx={{ color: "#ffffff", width:"5vw", marginTop:"5vh" }} />
-        </div>
-      </div>
+
+
+      {/*********** Banner **************/}
+
+      <Carousel/>
 
 
       {/*********** Presentacion **************/}
