@@ -30,7 +30,7 @@ function Pcontacto() {
 
       <div style={{height:"100vh", display:"flex"}}>
         <div>
-          <h1 className="t-contacto" style={{color:"#6667AB", fontWeight:"bolder"}}>Fundación FICU</h1>
+          <h1 className="t-contacto">Fundación FICU</h1>
 
           <p className="parrafo-contacto">+54 9 11 3027-3150</p>
           <p className="parrafo-contacto">somosficu@gmail.com</p>

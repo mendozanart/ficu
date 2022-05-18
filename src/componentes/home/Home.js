@@ -25,6 +25,11 @@ function Home() {
     <>
       {/*********** Banner **************/}
 
+      <LinkRouter to="/nosotros">
+        <button type="button" class="btn btn-header btn-primary">
+          Conocenos
+        </button>
+      </LinkRouter>
       <Carousel />
 
       {/*********** Presentacion **************/}
@@ -37,10 +42,13 @@ function Home() {
                 <div class="content-center">
                   {/*<h1>ficu</h1>*/}
                   <img src={Logo} alt="logo" width="400" />
-                  <p>
-                    es una fundación cuyo objetivo es servir de puente para que
+                  <h6 className="p-frase">
+                  es una fundación cuyo objetivo es servir de puente para que
                     migrantes y refugiados puedan insertarse en la sociedad de
                     acogida desde el arte, la cultura y los oficios.
+                </h6>
+                  <p>
+
                   </p>
                 </div>
               </div>
@@ -169,25 +177,62 @@ function Home() {
             </div>
           </div>
 
-          {/********Cards */}
 
-          {/*********** Frase  ***********/}
 
-          <div className="container-presentacion">
-            <section class="section top-section2">
-              <div class="content-container content-theme-dark">
-                <div class="content-inner">
-                  <div class="content-center"></div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
+          {/*********** Galeria  ***********/}
+
+
+
+                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src={home1} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 className="t-galeria">Festival Reencuentro</h5>
+        <p className="p-galeria">Reencuentro 2021 ACNUR</p>
       </div>
+    </div>
+    <div class="carousel-item">
+      <img src={home2} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 className="t-galeria">Carnavales</h5>
+        <p className="p-galeria">Celebracion Carnavales 2022</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src={home4} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 className="t-galeria">Carnavales Calipso</h5>
+        <p className="p-galeria">Celebracion Carnavales 2022</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+                  </div>
+                </div>
+
+
 
       {/*********** Nosotros ***********/}
       <LinkRouter to="/nosotros">
-        <button type="button" class="btn btn-nosotros btn-primary">
+        <button type="button" class="btn btn-nosotros btn-warning">
           Conocenos
         </button>
       </LinkRouter>
@@ -198,26 +243,22 @@ function Home() {
 
       {/*********** Frase  ***********/}
 
-      <div className="container-presentacion">
+{/*      <div className="container-presentacion">
         <section class="section top-section3">
           <div class="content-container content-theme-dark">
             <div class="content-inner">
               <div class="content-center">
-                <p>
-                  “Somos una especie en viaje. No tenemos pertenencias sino
-                  equipaje”
-                </p>
-                <p>Jorge Drexler</p>
+              <h3 className="t-eventos">Eventos</h3>
+              <h6 className="p-eventos">Enterate de los proximos eventos</h6>
               </div>
             </div>
           </div>
         </section>
-      </div>
+  </div>*/}
 
       {/*********** Eventos ***********/}
 
-      <h3 className="t-icono">Eventos</h3>
-      <p className="p-icono">Enterate de los proximos eventos</p>
+
 
 
 
@@ -230,11 +271,11 @@ function Home() {
           <div class="content-container content-theme-dark">
             <div class="content-inner">
               <div class="content-center">
-                <p>
+                <h6 className="p-frase">
                   “Somos una especie en viaje. No tenemos pertenencias sino
                   equipaje”
-                </p>
-                <p>Jorge Drexler</p>
+                </h6>
+                <h6 className="p-frase">Jorge Drexler</h6>
               </div>
             </div>
           </div>
