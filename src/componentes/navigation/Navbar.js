@@ -33,7 +33,7 @@ function Navbar() {
 <div className='d-flex' style={{justifyContent:"right", alignItems:"right"}}>
 <LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/">Home</LinkRouter>
 <LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/nosotros">Nosotros</LinkRouter>
-<LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/unete">Únete</LinkRouter>
+<LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/unete">Eventos</LinkRouter>
 <LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/pcontacto">Contacto</LinkRouter>
 </div>
 </div>

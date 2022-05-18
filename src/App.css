@@ -4,15 +4,17 @@ body{
 }
 
 
+
 :root{
-  --color-bg:#1B3659;
-  --color-bg-variant: #F20574;
-  --color-primary:#6D33A6;
-  --color-primary-variant:#0477BF;
+  --color-bg-dark:#1B3659;
+  --color-bg:#6667AB;
+  --color-bg-variant: #4A7EBF;
+  --color-blue:#35C4F3;
+  --color-green:#B6D444;
   --color-white:#fff;
-  --color-light:#F2AB27;
-  --color-esqueleto:#5EB2FC;
-  --color-naranja:#F2522E;
+  --color-yellow:#EEBA1C;
+  --color-naranja:#F16639;
+  --color-rosa:#E8226B;
 }
 
 

@@ -15,7 +15,7 @@ function Carousel() {
 
 
 <div class="slideShow">
-  <div class="slide3">
+  <div class="slide3" style={{}}>
   </div>
 
   <div class="slide2">
@@ -27,13 +27,15 @@ function Carousel() {
   <div class="banner">
 
 
-  <div className="w-100 vh-100 d-flex justify-content-center align-items-center">
+  <div className="gradient w-100 vh-100">
         <div className="content-header">
-            <h1 className="animate__animated animate__fadeInDown tituloheader">Somos Migrantes</h1>
-            <h3 className="animate__animated animate__fadeInDown subtituloheader">Somos FICU</h3>
-            <KeyboardArrowDownIcon sx={{ color: "#ffffff", width:"20vw", marginTop:"70vh", marginLeft:"40vw" }} />
+            <h1 className="animate__animated animate__fadeInDown tituloheader">Bienvenidos</h1>
+            <h1 className="animate__animated animate__fadeInDown tituloheader2">a Ficu</h1>
+            <h3 className="animate__animated animate__fadeInDown subtituloheader">Fundación para la integración Cultural</h3>
+            <KeyboardArrowDownIcon className="animate__animated animate__fadeInDown" sx={{ color: "#ffffff", width:"20vw", marginTop:"90vh", marginLeft:"40vw" }} />
         </div>
       </div>
+
 
 
   </div>

@@ -1,23 +1,31 @@
 import React from "react";
+import { Link as LinkRouter } from "react-router-dom";
 import "./home.css";
 import Carousel from "../carousel/Carousel";
+
 import home1 from "./img/ficu1.jpg";
 import home2 from "./img/ficu2.jpg";
 import home4 from "./img/ficu8.jpg";
-import Cards from "../cards/Cards";
-import Logo from "../navigation/logo2.png";
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import 'animate.css';
+import icono1 from "./img/icons/1.png";
+import icono2 from "./img/icons/2.png";
+import icono3 from "./img/icons/3.png";
+import icono4 from "./img/icons/4.png";
+import icono5 from "./img/icons/5.png";
+import icono6 from "./img/icons/6.png";
+import icono7 from "./img/icons/7.png";
+import video1 from "./video/video1.mp4";
+import video2 from "./video/video2.mp4";
 
+import Logo from "../navigation/logo2.png";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import "animate.css";
 
 function Home() {
   return (
     <>
-
       {/*********** Banner **************/}
 
-      <Carousel/>
-
+      <Carousel />
 
       {/*********** Presentacion **************/}
 
@@ -39,115 +47,198 @@ function Home() {
             </div>
           </section>
 
-          {/************ Mision **********/}
+          {/*****video */}
 
-          <div className=" d-flex">
-            <div>
-              <img src={home1} alt="foto" width="620" />
-            </div>
-            <div className="contenedor-mision">
-              <h3 className="t-mision">Nuestra misión</h3>
-              <ul className="p-mision">
-                <li>
+          <div>
+            <video autoPlay loop>
+              <source src={video2} type="video/mp4" />
+            </video>
+          </div>
+
+          {/*********** Mision ***********/}
+
+          <h3 className="t-icono">Nuestra misión</h3>
+          <p className="p-icono">Los objetivos de FICU</p>
+
+          <div className="contenedor-iconos">
+            <div className="iconos">
+              <div className="div-icono">
+                <img
+                  src={icono1}
+                  className="img-icono"
+                  alt="icono"
+                  width="100"
+                />
+                <h3 className="st-icono">EMPODERAR</h3>
+                <p className="sp-icono">
                   Empoderar al migrante y refugiado para su integración en la
                   sociedad argentina.
-                </li>
-                <li>
+                </p>
+              </div>
+            </div>
+
+            <div className="iconos">
+              <div className="div-icono">
+                <img
+                  src={icono2}
+                  className="img-icono"
+                  alt="icono"
+                  width="100"
+                />
+                <h3 className="st-icono">FAVORECER</h3>
+                <p className="sp-icono">
                   Favorecer los emprendimientos comunitarios productivos,
                   gastronómicos, artesanales artísticos, entre otros.
-                </li>
-                <li>
+                </p>
+              </div>
+            </div>
+
+            <div className="iconos" style={{ marginTop: "-0.1px" }}>
+              <div className="div-icono">
+                <img
+                  src={icono3}
+                  className="img-icono"
+                  alt="icono"
+                  width="100"
+                />
+                <h3 className="st-icono">PROMOVER</h3>
+                <p className="sp-icono">
                   Promover, asesorar y alentar la generación de proyectos.
-                </li>
-                <li>
+                </p>
+              </div>
+            </div>
+
+            <div className="iconos" style={{ marginTop: "-0.05px" }}>
+              <div className="div-icono">
+                <img
+                  src={icono4}
+                  className="img-icono"
+                  alt="icono"
+                  width="100"
+                />
+                <h3 className="st-icono">DESARROLLAR</h3>
+                <p className="sp-icono">
                   Promover y desarrollar actividades donde la cultura sea la
                   protagonista.
-                </li>
-                <li>Desarrollar y gestionar sistemas de comunicaciones .</li>
-                <li>
+                </p>
+              </div>
+            </div>
+
+            <div className="iconos">
+              <div className="div-icono">
+                <img
+                  src={icono5}
+                  className="img-icono"
+                  alt="icono"
+                  width="100"
+                />
+                <h3 className="st-icono">GESTIONAR</h3>
+                <p className="sp-icono">
+                  Desarrollar y gestionar sistemas de comunicaciones .
+                </p>
+              </div>
+            </div>
+
+            <div className="iconos">
+              <div className="div-icono">
+                <img
+                  src={icono6}
+                  className="img-icono"
+                  alt="icono"
+                  width="100"
+                />
+                <h3 className="st-icono">ESTABLECER</h3>
+                <p className="sp-icono">
                   Establecer acuerdos con otras entidades que se encuadren
                   dentro de los objetivos de la fundación.
-                </li>
-                <li>Fortalecer los liderazgos.</li>
-              </ul>
+                </p>
+              </div>
+            </div>
+
+            <div className="iconos" style={{ marginTop: "-1px" }}>
+              <div className="div-icono">
+                <img
+                  src={icono7}
+                  className="img-icono"
+                  alt="icono"
+                  width="100"
+                />
+                <h3 className="st-icono">FORTALECER</h3>
+                <p className="sp-icono">Fortalecer los liderazgos.</p>
+              </div>
             </div>
           </div>
 
-          {/*********** Datos ***********/}
-
-          <div className="d-flex">
-            <div style={{ marginLeft: "650px" }}>
-              <h3 className="t-datos">Actividades</h3>
-              <ul className="p-datos" style={{ textAlign: "right" }}>
-                <li>Charlas ,Talleres y seminarios</li>
-                <li>Eventos y Encuentros</li>
-                <li>Creación de Espacios</li>
-                <li>Sistemas de Comunicación</li>
-                <li>Acompañamiento</li>
-              </ul>
-            </div>
-            <div>
-              <img
-                src={home2}
-                alt=""
-                width="500"
-                style={{ marginLeft: "30px" }}
-              />
-            </div>
-          </div>
-
-          {/************ Equipo **********/}
-
-          <div className=" d-flex">
-            <div>
-              <img src={home4} alt="foto" width="620" />
-            </div>
-            <div className="contenedor-equipo">
-              <h3 className="t-equipo">Nuestro equipo</h3>
-              <ul className="p-equipo">
-                <li>
-                  Empoderar al migrante y refugiado para su integración en la
-                  sociedad argentina.
-                </li>
-                <li>
-                  Favorecer los emprendimientos comunitarios productivos,
-                  gastronómicos, artesanales artísticos, entre otros.
-                </li>
-                <li>
-                  Promover, asesorar y alentar la generación de proyectos.
-                </li>
-                <li>
-                  Promover y desarrollar actividades donde la cultura sea la
-                  protagonista.
-                </li>
-                <li>Desarrollar y gestionar sistemas de comunicaciones .</li>
-                <li>
-                  Establecer acuerdos con otras entidades que se encuadren
-                  dentro de los objetivos de la fundación.
-                </li>
-                <li>Fortalecer los liderazgos.</li>
-              </ul>
-            </div>
-          </div>
+          {/********Cards */}
 
           {/*********** Frase  ***********/}
 
           <div className="container-presentacion">
-            <section class="section top-section">
+            <section class="section top-section2">
               <div class="content-container content-theme-dark">
                 <div class="content-inner">
-                  <div class="content-center">
-                    <p>
-                      “Somos una especie en viaje. No tenemos pertenencias sino
-                      equipaje”
-                    </p>
-                    <p>Jorge Drexler</p>
-                  </div>
+                  <div class="content-center"></div>
                 </div>
               </div>
             </section>
           </div>
         </div>
+      </div>
+
+      {/*********** Nosotros ***********/}
+      <LinkRouter to="/nosotros">
+        <button type="button" class="btn btn-nosotros btn-primary">
+          Conocenos
+        </button>
+      </LinkRouter>
+      <div className="contenedor-nosotros">
+        <h3 className="t-nosotros">Nuestro equipo</h3>
+        <p className="p-nosotros">Conoce los miembros de nuestro equipo</p>
+      </div>
+
+      {/*********** Frase  ***********/}
+
+      <div className="container-presentacion">
+        <section class="section top-section3">
+          <div class="content-container content-theme-dark">
+            <div class="content-inner">
+              <div class="content-center">
+                <p>
+                  “Somos una especie en viaje. No tenemos pertenencias sino
+                  equipaje”
+                </p>
+                <p>Jorge Drexler</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      {/*********** Eventos ***********/}
+
+      <h3 className="t-icono">Eventos</h3>
+      <p className="p-icono">Enterate de los proximos eventos</p>
+
+
+
+
+
+      {/*********** Frase  ***********/}
+
+      <div className="container-presentacion">
+        <section class="section top-section4">
+          <div class="content-container content-theme-dark">
+            <div class="content-inner">
+              <div class="content-center">
+                <p>
+                  “Somos una especie en viaje. No tenemos pertenencias sino
+                  equipaje”
+                </p>
+                <p>Jorge Drexler</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

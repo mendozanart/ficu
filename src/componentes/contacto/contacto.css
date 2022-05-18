@@ -53,14 +53,14 @@ html{    background:url("http://www.philippefercha.com/img/home-page.jpg") no-re
 .feedback-input:focus{
   background: #fff;
   box-shadow: 0;
-  color: #1B3659;
+  color: #6667AB;
   outline: none;
   padding: 13px 13px 13px 13px;
 }
 
 .focused{
-  color:#1B3659;
-  border:#30aed6 solid 2px;
+  color:#6667AB;
+  border:#6667AB solid 2px;
 }
 
 textarea {
@@ -81,7 +81,7 @@ input:focus, textarea:focus {
   width: 100%;
   border: 0px solid transparent;
   cursor:pointer;
-  background-color: #0477BF;
+  background-color: #6667AB;
   color:white;
   font-size:18px;
   padding-top:22px;
@@ -95,12 +95,12 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
   background-color: #fff;
-  color: #0477BF;
-  border: 1px solid #0477BF;
+  color: #6667AB;
+  border: 1px solid #6667AB;
 }
   
 .submit:hover {
-  color: #3498db;
+  color: #6667AB;
 }
   
 .ease {
@@ -138,9 +138,14 @@ input:focus, textarea:focus {
 
 
 .banner-image-contacto{
-  background-image: url(../home/img/banner1.jpg);
+  background-image: url(../home/img/ficu8.jpg);
   background-size: cover;
   max-height: 90vh;
+}
+
+.gradient{
+  background: rgb(102,103,171);
+  background: linear-gradient(228deg, rgba(102,103,171,0.7) 0%, rgba(74,126,191,0.7) 100%); 
 }
 
 

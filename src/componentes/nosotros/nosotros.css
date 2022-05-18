@@ -6,6 +6,11 @@
     background-size: cover;
     max-height: 90vh;
   }
+
+  .gradient{
+    background: rgb(102,103,171);
+    background: linear-gradient(228deg, rgba(102,103,171,0.7) 0%, rgba(74,126,191,0.7) 100%); 
+  }
   
   
   .tituloheader-nosotros{

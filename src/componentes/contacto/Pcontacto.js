@@ -30,7 +30,7 @@ function Pcontacto() {
 
       <div style={{height:"100vh", display:"flex"}}>
         <div>
-          <h1 className="t-contacto" style={{color:"#1B3659", fontWeight:"bolder"}}>Fundación FICU</h1>
+          <h1 className="t-contacto" style={{color:"#6667AB", fontWeight:"bolder"}}>Fundación FICU</h1>
 
           <p className="parrafo-contacto">+54 9 11 3027-3150</p>
           <p className="parrafo-contacto">somosficu@gmail.com</p>
@@ -47,7 +47,7 @@ function Pcontacto() {
                   title="Facebook"
                   target="_blank"
                 >
-                  <FacebookIcon sx={{ color: "#0477BF", margin: "5px" }} />
+                  <FacebookIcon sx={{ color: "#6667AB", margin: "5px" }} />
                 </a>
                 <a
                   href="https://www.instagram.com/somosficu/"
@@ -56,7 +56,7 @@ function Pcontacto() {
                   title="Instagram"
                   target="_blank"
                 >
-                  <InstagramIcon sx={{ color: "#0477BF", margin: "5px" }} />
+                  <InstagramIcon sx={{ color: "#6667AB", margin: "5px" }} />
                 </a>
                 <a
                   href="https://www.linkedin.com/company/somosficu/"
@@ -65,7 +65,7 @@ function Pcontacto() {
                   title="Instagram"
                   target="_blank"
                 >
-                <LinkedInIcon sx={{ color: "#0477BF", margin: "5px" }} />
+                <LinkedInIcon sx={{ color: "#6667AB", margin: "5px" }} />
                 </a>
                 <a
                   href="https://mobile.twitter.com/somosficu"
@@ -74,7 +74,7 @@ function Pcontacto() {
                   title="Instagram"
                   target="_blank"
                 >
-                <TwitterIcon sx={{ color: "#0477BF", margin: "5px" }} />
+                <TwitterIcon sx={{ color: "#6667AB", margin: "5px" }} />
                 </a>
               </section>
             </div>
