@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link as LinkRouter } from "react-router-dom";
 import "./home.css";
 import Carousel from "../carousel/Carousel";
-
 import home1 from "./img/ficu1.jpg";
 import home2 from "./img/ficu2.jpg";
 import home4 from "./img/ficu8.jpg";
@@ -15,12 +14,17 @@ import icono6 from "./img/icons/6.png";
 import icono7 from "./img/icons/7.png";
 import video1 from "./video/video1.mp4";
 import video2 from "./video/video2.mp4";
-
 import Logo from "../navigation/logo2.png";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "animate.css";
 
 function Home() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  
   return (
     <>
       {/*********** Banner **************/}

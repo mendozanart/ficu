@@ -1,5 +1,5 @@
 import React from "react";
-import { Link as Linkrouter } from "react-router-dom";
+import { Link as LinkRouter } from "react-router-dom";
 import "./footer.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -98,10 +98,10 @@ function Footer() {
 
 
         <div className='mt-5 mb-3' style={{alignItems:"center"}}>
-            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Home</a>
-            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Nosotros</a>
-            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Únete</a>
-            <a href="" tittle="" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Contacto</a>
+            <LinkRouter to="/" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Home</LinkRouter>
+            <LinkRouter to="/nosotros" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Nosotros</LinkRouter>
+            <LinkRouter to="/eventos" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Eventos</LinkRouter>
+            <LinkRouter to="/contacto" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Contacto</LinkRouter>
         </div>
 
         <div class="footer-texto text-center p-3">

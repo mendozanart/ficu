@@ -2,12 +2,13 @@
 
 
 .banner-image-nosotros{
-    background-image: url(../home/img/ficu2.jpg);
+    background-image: url(../home/img/nosotros.jpg);
     background-size: cover;
     max-height: 90vh;
   }
 
-  .gradient{
+
+  .gradient-nosotros{
     background: rgb(102,103,171);
     background: linear-gradient(228deg, rgba(102,103,171,0.7) 0%, rgba(74,126,191,0.7) 100%); 
   }
@@ -59,6 +60,30 @@
   }
 
   .profile-photo{
+    background-image: url(../nosotros/img/LV.jpg);
+    background-size: cover;
+    width:220px;
+    height:220px;
+    margin:100px;
+    border-radius:220px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ffffff;
+  }
+
+  .profile-photo2{
+    background-image: url(../nosotros/img/ED.jpg);
+    background-size: cover;
+    width:220px;
+    height:220px;
+    margin:100px;
+    border-radius:220px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ffffff;
+  }
+
+  .profile-photo3{
     background-image: url(../nosotros/img/profile1-01-01.png);
     background-size: cover;
     width:220px;
@@ -74,14 +99,14 @@
     margin-top: 32vh;
     text-align: center;
     color: #6667AB;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 100;
   }
 
   .profile-subtitle{
     text-align: center;
     color: #3e3f67;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 100;
   }
 

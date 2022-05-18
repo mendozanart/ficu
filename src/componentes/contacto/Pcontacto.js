@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./contacto.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "animate.css";
@@ -11,6 +11,12 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 
 function Pcontacto() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  
   return (
     <>
       {/*********** Banner **************/}

@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Navbar from './componentes/navigation/Navbar';
 import Home from './componentes/home/Home'
 import Nosotros from './componentes/nosotros/Nosotros'
-import Unete from './componentes/unete/Unete'
+import Eventos from './componentes/eventos/Eventos'
 import Pcontacto from './componentes/contacto/Pcontacto'
 import Footer from './componentes/footer/Footer'
 import './App.css';
@@ -16,8 +16,8 @@ function App() {
       <Routes>
       <Route path='*' element={<Home/>}/> 
       <Route path='/nosotros' element={<Nosotros/>}/>
-      <Route path='/unete' element={<Unete/>}/>
-      <Route path='/pcontacto' element={<Pcontacto/>}/>
+      <Route path='/eventos' element={<Eventos/>}/>
+      <Route path='/contacto' element={<Pcontacto/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

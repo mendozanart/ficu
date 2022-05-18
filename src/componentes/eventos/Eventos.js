@@ -1,9 +1,14 @@
-import React from "react";
-import "./unete.css";
+import React, {useEffect} from "react";
+import "./eventos.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "animate.css";
 
-function Unete() {
+function Eventos() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       {/*********** Banner **************/}
@@ -15,7 +20,6 @@ function Unete() {
               EVENTOS
             </h1>
             <h3 className="animate__animated animate__fadeInDown subtituloheader"></h3>
-            <KeyboardArrowDownIcon sx={{ color: "#ffffff", width: "5vw" }} />
           </div>
         </div>
 
@@ -23,4 +27,4 @@ function Unete() {
   );
 }
 
-export default Unete;
+export default Eventos;
