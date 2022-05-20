@@ -49,7 +49,7 @@ function Nosotros() {
       <div className="profile-photo">
       <h3 className="profile-title">Lia Valeri</h3>
         <h4 className="profile-subtitle">Fundadora</h4>
-        <p className="profile-p">Venezolano</p>
+        {/*<p className="profile-p">Venezolano</p>*/}
       </div>
     </div>
 
@@ -57,7 +57,7 @@ function Nosotros() {
       <div className="profile-photo2">
       <h3 className="profile-title">Eduardo Ciancia</h3>
         <h4 className="profile-subtitle">Tesorero</h4>
-        <p className="profile-p">Venezolano</p>
+        {/*<p className="profile-p">Venezolano</p>*/}
       </div>
     </div>
 
@@ -65,7 +65,7 @@ function Nosotros() {
       <div className="profile-photo3">
       <h3 className="profile-title">Merwin Molina</h3>
         <h4 className="profile-subtitle">Secretario</h4>
-        <p className="profile-p">Venezolano</p>
+        {/*<p className="profile-p">Venezolano</p>*/}
       </div>
     </div>
 

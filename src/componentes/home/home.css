@@ -251,7 +251,7 @@ a{
   font-size: 20px;
   position: absolute;
   margin-top: 75vh;
-  margin-left: 15vw;
+  margin-left: 14vw;
   z-index: 2;
 }
 
@@ -399,7 +399,7 @@ a{
 .contenedor-nosotros{
   display: flex;
   flex-wrap: wrap;
-  background-image: url(../home/img/nosotros3.PNG);
+  background-image: url(../home/img/nosotrosbold.PNG);
   width: 100% !important;
   height: 100vh;
   padding: 0;
@@ -478,6 +478,60 @@ a{
   font-weight: 100;
 }
 
+
+.actividades-photo{
+  background-image: url(../home/img/charla.jpg);
+  background-size: cover;
+  width:220px;
+  height:220px;
+  margin:10px;
+  border-radius:220px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
+
+.actividades-photo2{
+  background-image: url(../home/img/ficu8.jpg);
+  background-size: cover;
+  width:220px;
+  height:220px;
+  margin:10px;
+  border-radius:220px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
+
+.actividades-photo3{
+  background-image: url(../home/img/ficu5.jpg);
+  background-size: cover;
+  width:220px;
+  height:220px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-right:10px;
+  margin-top:60px;
+  border-radius:220px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
+
+.actividades-photo4{
+  background-image: url(../home/img/charla3.jpg);
+  background-size: cover;
+  width:220px;
+  height:220px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-right:10px;
+  margin-top:80px;
+  border-radius:220px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
 
  /********************************************** M E D I A -Q U E R Y************************ */
 

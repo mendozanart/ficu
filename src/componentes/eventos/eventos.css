@@ -62,6 +62,7 @@
     margin-left: 37vw;
     color: #737373;
     margin-right: 40px;
+    font-weight: 100;
   }
   
   .t-junio{
@@ -69,7 +70,7 @@
     margin-top: 40px;
     margin-left: 46.5vw;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 100;
     color: #EEBA1C;
   }
 
@@ -80,6 +81,7 @@
     margin-left: 38vw;
     color: #737373;
     margin-right: 40px;
+    font-weight: 100;
   }
   
   .t-julio{
@@ -87,7 +89,7 @@
     margin-top: 40px;
     margin-left: 46.5vw;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 100;
     color: #F16639;
   }
 
@@ -98,6 +100,7 @@
     margin-left: 38vw;
     color: #737373;
     margin-right: 40px;
+    font-weight: 100;
   }
   
   .t-agosto{
@@ -105,7 +108,7 @@
     margin-top: 40px;
     margin-left: 45.5vw;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 100;
     color: #E8226B;
   }
 

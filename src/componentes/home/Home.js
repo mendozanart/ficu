@@ -1,4 +1,4 @@
-import React, { useEffect }  from "react";
+import React, { useEffect } from "react";
 import { Link as LinkRouter } from "react-router-dom";
 import "./home.css";
 import Carousel from "../carousel/Carousel";
@@ -19,18 +19,14 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "animate.css";
 
 function Home() {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  
   return (
     <>
       {/*********** Banner **************/}
 
-
-      
       <Carousel />
 
       {/*********** Presentacion **************/}
@@ -42,18 +38,18 @@ function Home() {
               <div class="content-inner">
                 <div class="content-center">
                   {/*<h1>ficu</h1>*/}
-                 {/* <img src={Logo} alt="logo" width="400" />*/}
+                  {/* <img src={Logo} alt="logo" width="400" />*/}
                   <h6 className="tituloheader"></h6>
                   <h5 className="t-galeria mb-2">Nuestro Objetivo</h5>
-                  <h2></h2>                  <h6 className="p-frase">
-                  "<strong>FICU</strong> es una fundación cuyo objetivo es servir de puente para que
-                    migrantes y refugiados puedan insertarse en la sociedad de
-                    acogida desde el arte, la cultura y los oficios."
-                </h6>
-                <h2></h2>    
-                  <p>
-
-                  </p>
+                  <h2></h2>{" "}
+                  <h6 className="p-frase">
+                    <strong>FICU</strong> es una fundación cuyo objetivo es
+                    servir de puente para que migrantes y refugiados puedan
+                    insertarse en la sociedad de acogida desde el arte, la
+                    cultura y los oficios
+                  </h6>
+                  <h2></h2>
+                  <p></p>
                 </div>
               </div>
             </div>
@@ -181,76 +177,152 @@ function Home() {
             </div>
           </div>
 
+          {/*********** Nosotros ***********/}
 
+          <div className="div-nosotros">
+            <LinkRouter to="/nosotros">
+              <button type="button" class="btn btn-header2 btn-primary">
+                Conócenos
+              </button>
+            </LinkRouter>
+            <div className="contenedor-nosotros">
+              <h3 className="t-nosotros">Nuestro equipo</h3>
+              <p className="p-nosotros">
+                Conoce los miembros de nuestro equipo
+              </p>
+            </div>
+          </div>
+
+          {/*********** Actividades ***********/}
+
+          <h3 className="t-icono">Nuestras actividades</h3>
+          <p className="p-icono">Nuestros lugares de encuentro</p>
+
+          <LinkRouter to="/eventos">
+            <div className="contenedor-iconos">
+              <div className="iconos">
+                <div className="div-icono">
+                  <div className="actividades-photo"></div>
+
+                  <h3 className="st-icono">CHARLAS</h3>
+                  <p className="sp-icono">Charlas, talleres y seminarios</p>
+                </div>
+              </div>
+
+              <div className="iconos">
+                <div className="div-icono">
+                  <div className="actividades-photo2"></div>
+
+                  <h3 className="st-icono">EVENTOS</h3>
+                  <p className="sp-icono">Eventos y encuentros</p>
+                </div>
+              </div>
+
+              <div className="iconos" style={{ marginTop: "-0.1px" }}>
+                <div className="div-icono">
+                  <div className="actividades-photo3"></div>
+
+                  <h3 className="st-icono">ENCUENTRO</h3>
+                  <p className="sp-icono">Creación de espacion de encuentro.</p>
+                </div>
+              </div>
+
+              <div className="iconos" style={{ marginTop: "-0.05px" }}>
+                <div className="div-icono">
+                  <div className="actividades-photo4"></div>
+
+                  <h3 className="st-icono">ACOMPAÑAMIENTO</h3>
+                  <p className="sp-icono">
+                    Sistemas de comunicación y acompañamiento.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </LinkRouter>
 
           {/*********** Galeria  ***********/}
 
-
-
-                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={home1} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5 className="t-galeria">Festival Reencuentro</h5>
-        <p className="p-galeria">Reencuentro 2021 ACNUR</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src={home2} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5 className="t-galeria">Carnavales</h5>
-        <p className="p-galeria">Celebracion Carnavales 2022</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src={home4} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5 className="t-galeria">Carnavales Calipso</h5>
-        <p className="p-galeria">Celebracion Carnavales 2022</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-
-
-
-                  </div>
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src={home1} class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 className="t-galeria">Festival Reencuentro</h5>
+                  <p className="p-galeria">Reencuentro 2021 ACNUR</p>
                 </div>
-
-
-
-      {/*********** Nosotros ***********/}
-
-      <div className="div-nosotros">
-      <LinkRouter to="/nosotros">
-        <button type="button" class="btn btn-header2 btn-warning">
-          Conócenos
-        </button>
-      </LinkRouter>
-      <div className="contenedor-nosotros">
-        <h3 className="t-nosotros">Nuestro equipo</h3>
-        <p className="p-nosotros">Conoce los miembros de nuestro equipo</p>
-      </div>
+              </div>
+              <div class="carousel-item">
+                <img src={home2} class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 className="t-galeria">Carnavales</h5>
+                  <p className="p-galeria">Celebracion Carnavales 2022</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src={home4} class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 className="t-galeria">Carnavales Calipso</h5>
+                  <p className="p-galeria">Celebracion Carnavales 2022</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </div>
 
       {/*********** Frase  ***********/}
 
-{/*      <div className="container-presentacion">
+      {/*      <div className="container-presentacion">
         <section class="section top-section3">
           <div class="content-container content-theme-dark">
             <div class="content-inner">
@@ -262,14 +334,6 @@ function Home() {
           </div>
         </section>
   </div>*/}
-
-      {/*********** Eventos ***********/}
-
-
-
-
-
-
 
       {/*********** Frase  ***********/}
 
