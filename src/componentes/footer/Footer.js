@@ -98,10 +98,10 @@ function Footer() {
 
 
         <div className='mt-5 mb-3' style={{alignItems:"center"}}>
-            <LinkRouter to="/" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Home</LinkRouter>
-            <LinkRouter to="/nosotros" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Nosotros</LinkRouter>
-            <LinkRouter to="/eventos" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Eventos</LinkRouter>
-            <LinkRouter to="/contacto" style={{margin:'10px', textDecoration:'none', color:'#ffffff', fontWeight:'bold'}}>Contacto</LinkRouter>
+            <LinkRouter to="/" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Home</LinkRouter>
+            <LinkRouter to="/eventos" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Eventos</LinkRouter>
+            <LinkRouter to="/nosotros" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Nosotros</LinkRouter>
+            <LinkRouter to="/contacto" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Contacto</LinkRouter>
         </div>
 
         <div class="footer-texto text-center p-3">
