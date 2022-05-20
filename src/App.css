@@ -6,6 +6,7 @@ body{
 
 
 :root{
+  --color-bg-cero:#737373;
   --color-bg-dark:#1B3659;
   --color-bg:#6667AB;
   --color-bg-variant: #4A7EBF;

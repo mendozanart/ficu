@@ -1,6 +1,11 @@
 import React, {useEffect} from "react";
 import "./eventos.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import "animate.css";
 
 function Eventos() {
@@ -22,6 +27,238 @@ function Eventos() {
             <h3 className="animate__animated animate__fadeInDown subtituloheader"></h3>
           </div>
         </div>
+
+        <div>
+        {/**************Junio  **********/}
+
+
+        <h3 className="t-junio">Junio</h3>
+        <p className="p-junio">Asiste a nuestros eventos del mes de Junio</p>
+
+        {/************** Acordeon Junio *******/}
+
+        <div className="acordion">
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography       sx={{
+        color: '#737373',
+        '&:hover': {
+          color: '#737373',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}>Eventos</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{
+        color: '#737373',
+        '&:hover': {
+          color: '#737373',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}>Charlas</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{
+        color: '#737373',
+        '&:hover': {
+          color: '#737373',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}>Talleres</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+    </div>
+
+
+
+
+            {/**************Julio  **********/}
+
+
+            <h3 className="t-julio">Julio</h3>
+        <p className="p-julio">Prepara tu calendario con anticipación</p>
+
+        {/************** Acordeon Julio *******/}
+
+        <div className="acordion">
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography       sx={{
+        color: '#737373',
+        '&:hover': {
+          color: '#737373',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}>Eventos</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{
+        color: '#737373',
+        '&:hover': {
+          color: '#737373',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}>Charlas</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{
+        color: '#737373',
+        '&:hover': {
+          color: '#737373',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}>Talleres</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+    </div>
+
+
+
+
+
+            {/************** Agosto  **********/}
+
+
+            <h3 className="t-agosto">Agosto</h3>
+        <p className="p-agosto">Enterate de todo lo que llega en Agosto</p>
+
+        {/************** Acordeon Agosto *******/}
+
+        <div className="acordion">
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography       sx={{
+        color: '#737373',
+        '&:hover': {
+          color: '#737373',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}>Eventos</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{
+        color: '#737373',
+        '&:hover': {
+          color: '#737373',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}>Charlas</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{
+        color: '#737373',
+        '&:hover': {
+          color: '#737373',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}>Talleres</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+    </div>
+
+    </div>
 
     </>
   );
