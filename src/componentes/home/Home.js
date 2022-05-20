@@ -29,11 +29,8 @@ function Home() {
     <>
       {/*********** Banner **************/}
 
-      <LinkRouter to="/nosotros">
-        <button type="button" class="btn btn-header btn-primary">
-          Conocenos
-        </button>
-      </LinkRouter>
+
+      
       <Carousel />
 
       {/*********** Presentacion **************/}
@@ -45,12 +42,15 @@ function Home() {
               <div class="content-inner">
                 <div class="content-center">
                   {/*<h1>ficu</h1>*/}
-                  <img src={Logo} alt="logo" width="400" />
-                  <h6 className="p-frase">
-                  es una fundación cuyo objetivo es servir de puente para que
+                 {/* <img src={Logo} alt="logo" width="400" />*/}
+                  <h6 className="tituloheader"></h6>
+                  <h5 className="t-galeria mb-2">Nuestro Objetivo</h5>
+                  <h2></h2>                  <h6 className="p-frase">
+                  "<strong>FICU</strong> es una fundación cuyo objetivo es servir de puente para que
                     migrantes y refugiados puedan insertarse en la sociedad de
-                    acogida desde el arte, la cultura y los oficios.
+                    acogida desde el arte, la cultura y los oficios."
                 </h6>
+                <h2></h2>    
                   <p>
 
                   </p>
@@ -235,14 +235,17 @@ function Home() {
 
 
       {/*********** Nosotros ***********/}
+
+      <div className="div-nosotros">
       <LinkRouter to="/nosotros">
-        <button type="button" class="btn btn-nosotros btn-warning">
-          Conocenos
+        <button type="button" class="btn btn-header2 btn-warning">
+          Conócenos
         </button>
       </LinkRouter>
       <div className="contenedor-nosotros">
         <h3 className="t-nosotros">Nuestro equipo</h3>
         <p className="p-nosotros">Conoce los miembros de nuestro equipo</p>
+      </div>
       </div>
 
       {/*********** Frase  ***********/}

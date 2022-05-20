@@ -1,7 +1,7 @@
 .slideShow {
     // Total Slideshow dimensions
     width: 100vw;
-    height: 100vh;
+    height: 29vh;
   
     // Each slide's global style
     * {
@@ -16,15 +16,27 @@
     }
   }
   
+  .slide6 {
+    background-image: url(../home/img/banner3.jpg);
+  }
+
+  .slide5 {
+    background-image: url(../home/img/cultura3.jpg);
+  }
+
+  .slide4 {
+    background-image: url(../home/img/banner2.jpg);
+  }
+
   .slide3 {
-    background-image: url(../home/img/ficu1.jpg);
+    background-image: url(../home/img/ficu5.jpg);
   }
   .slide2 {
-    background-image: url(../home/img/ficu2.jpg);
+    background-image: url(../home/img/ficu7.jpg);
     animation: fade 15s 5s infinite ease-in-out;
   }
   .slide1 {
-    background-image: url(../home/img/ficu8.jpg);
+    background-image: url(../home/img/ficu11.jpg);
     animation: fade 15s infinite ease-in-out;
   }
   

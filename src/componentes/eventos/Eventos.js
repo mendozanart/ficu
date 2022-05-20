@@ -6,6 +6,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Carousel3 from "../carousel/Carousel3";
 import "animate.css";
 
 function Eventos() {
@@ -19,6 +20,9 @@ function Eventos() {
       {/*********** Banner **************/}
 
 
+<Carousel3/>
+<div style={{height:"75vh"}}></div>
+{/*
         <div className="banner-image-unete w-100 vh-100 d-flex justify-content-center align-items-center">
           <div className="content-header">
             <h1 className="animate__animated animate__fadeInDown tituloheader-unete">
@@ -26,7 +30,7 @@ function Eventos() {
             </h1>
             <h3 className="animate__animated animate__fadeInDown subtituloheader"></h3>
           </div>
-        </div>
+  </div>*/}
 
         <div>
         {/**************Junio  **********/}
@@ -188,7 +192,7 @@ function Eventos() {
 
 
             <h3 className="t-agosto">Agosto</h3>
-        <p className="p-agosto">Enterate de todo lo que llega en Agosto</p>
+        <p className="p-agosto">Entérate de todo lo que llega en Agosto</p>
 
         {/************** Acordeon Agosto *******/}
 

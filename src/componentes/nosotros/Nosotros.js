@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import "./nosotros.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Carousel2 from "../carousel/Carousel2";
 import "animate.css";
 
 
@@ -16,7 +17,10 @@ function Nosotros() {
     <>
       {/*********** Banner **************/}
 
-      <div className="gradient-nosotros w-100 h-100">
+<Carousel2/>
+<div style={{height:"60vh"}}></div>
+
+{/*<div className="gradient-nosotros w-100 h-100">
       <div className="banner-image-nosotros w-100 h-100 d-flex justify-content-center align-items-center">
         <div className="content-header">
           <h1 className="animate__animated animate__fadeInDown tituloheader-nosotros">
@@ -26,7 +30,7 @@ function Nosotros() {
           <KeyboardArrowDownIcon sx={{ color: "#ffffff", width: "5vw" }} />
         </div>
       </div>
-      </div>
+  </div>*/}
 
 
 

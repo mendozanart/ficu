@@ -7,6 +7,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import Carousel4 from "../carousel/Carousel4";
 
 
 
@@ -21,7 +22,10 @@ function Pcontacto() {
     <>
       {/*********** Banner **************/}
 
-      <div className="banner-image-contacto w-100 vh-100 d-flex justify-content-center align-items-center">
+      <Carousel4/>
+      <div style={{height:"70vh"}}></div>
+
+{/*      <div className="banner-image-contacto w-100 vh-100 d-flex justify-content-center align-items-center">
         <div className="content-header">
           <h1 className="animate__animated animate__fadeInDown tituloheader-contacto">
             CONTACTO
@@ -29,7 +33,7 @@ function Pcontacto() {
           <h3 className="animate__animated animate__fadeInDown subtituloheader"></h3>
           <KeyboardArrowDownIcon sx={{ color: "#ffffff", width: "5vw" }} />
         </div>
-      </div>
+  </div>*/}
 
       {/************ Formulario ***********/}
 
