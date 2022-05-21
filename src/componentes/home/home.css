@@ -192,6 +192,18 @@ a{
   letter-spacing: 3px;
 }
 
+.tituloheaderartistas{
+  color:#ffffff ;
+  font-size: 15vh;
+  font-weight: 500;
+  color: transparent;
+  text-shadow: 0 0 0px rgb(255, 255, 255);
+  margin-top: 50vh;
+  text-align: left !important;
+  margin-left: 33vw;
+  letter-spacing: 3px;
+}
+
 .subtituloheader{
   color:#ffffff ;
   font-size: 3vh;
@@ -231,6 +243,15 @@ a{
 }
 
 .subtituloheadercontacto{
+  color:#ffffff ;
+  margin-top: 70vh;
+  text-align: left !important;
+  margin-left: 39vw;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.subtituloheaderartistas{
   color:#ffffff ;
   margin-top: 70vh;
   text-align: left !important;
@@ -531,6 +552,108 @@ a{
   border-style: solid;
   border-width: 10px;
   border-color: #ffffff;
+}
+
+.actividades-photo5{
+  background-image: url(../home/img/charla3.jpg);
+  background-size: cover;
+  width:220px;
+  height:220px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-right:10px;
+  margin-top:80px;
+  border-radius:220px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
+
+
+.ejes-photo{
+  background-image: url(../home/img/icons/eje1.png);
+  background-size: cover;
+  width:170px;
+  height:170px;
+  margin:10px;
+  border-radius:220px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
+
+.ejes-photo2{
+  background-image: url(../home/img/icons/eje2.png);
+  background-size: cover;
+  width:170px;
+  height:170px;
+  margin:10px;
+  border-radius:220px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
+
+.ejes-photo3{
+  background-image: url(../home/img/icons/eje3.png);
+  background-size: cover;
+  width:170px;
+  height:170px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-right:10px;
+  margin-top:60px;
+  border-radius:220px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
+
+.ejes-photo4{
+  background-image: url(../home/img/icons/eje4.png);
+  background-size: cover;
+  width:170px;
+  height:170px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-right:10px;
+  margin-top:80px;
+  border-radius:220px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
+
+.ejes-photo5{
+  background-image: url(../home/img/icons/eje5.png);
+  background-size: cover;
+  width:170px;
+  height:170px;
+  margin-left:5px;
+  margin-bottom:10px;
+  margin-right:5px;
+  margin-top:80px;
+  border-radius:220px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+}
+
+.st-ejes{
+  color:#4e4f84;
+  margin-top: 2vh;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sp-ejes{
+  color:#4e4f84;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.div-ejes{
+  width: 170px;
 }
 
  /********************************************** M E D I A -Q U E R Y************************ */

@@ -7,6 +7,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import logoacnur from "./acnur2.svg";
 import logooim from "./oim2.svg";
+import logoSSDDHH from "./SSDDHH.svg"
+import logogcba from "./gcba-01.svg"
 
 function Footer() {
   return (
@@ -24,6 +26,8 @@ function Footer() {
 
             
           <div className="mt-4" style={{ display: "flex", flexDirection: "column" }}>
+            <p class="footer-texto text-center p-3">Nos acompañan:</p>
+            <div>
           <a
                   href="https://fundacionacnur.org/"
                   data-toggle="tooltip"
@@ -44,16 +48,52 @@ function Footer() {
               src={logooim}
               alt="logo"
               width="90"
+              style={{ marginTop: "1px", marginLeft:"30px"}}
+            />
+                </a>
+                </div>
+
+
+
+                <div >
+                <a
+                  href="https://www.iom.int/es"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Instagram"
+                  target="_blank"
+                >
+            <img
+              src={logoSSDDHH}
+              alt="logo"
+              width="90"
               style={{ marginTop: "20px" }}
             />
                 </a>
+
+                <a
+                  href="https://www.iom.int/es"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Instagram"
+                  target="_blank"
+                >
+            <img
+              src={logogcba}
+              alt="logo"
+              width="90"
+              style={{ marginTop: "20px",  marginLeft:"30px" }}
+            />
+                </a>
+                </div>
           </div>
 
 
 
-          <div>
+          <div >
             <div className="containerf p-4 pb-0">
               <section className="mb-4">
+                
                 {" "}
                 <a
                   href="https://www.facebook.com/somosficu"
@@ -104,7 +144,7 @@ function Footer() {
             <LinkRouter to="/contacto" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Contacto</LinkRouter>
         </div>
 
-        <div class="footer-texto text-center p-3">
+        <div className="footer-texto text-center p-3">
           <p>
             © 2022{" "}
             <strong>Ficu - Fundación para la Integración Cultural</strong> -

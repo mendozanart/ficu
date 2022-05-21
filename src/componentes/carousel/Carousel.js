@@ -18,7 +18,7 @@ function Carousel() {
 
 <LinkRouter to="/eventos">
         <button type="button" className="animate__animated animate__fadeInDown btn btn-header btn-primary">
-          Proximos eventos
+          Próximos eventos
         </button>
       </LinkRouter>
 

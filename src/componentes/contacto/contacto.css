@@ -27,7 +27,7 @@ html{    background:url("http://www.philippefercha.com/img/home-page.jpg") no-re
   float: left;
   left: 50%;
   position: absolute;
-  margin-top:15vh;
+  margin-top:20vh;
   margin-left: 150px;
 }
 
@@ -169,7 +169,7 @@ input:focus, textarea:focus {
 .p-contacto{
   font-size: 15px;
   text-align: left !important;
-  margin-left: 10vw;
+  margin-left: 9vw;
   color: #6667AB;
   margin-right: 40px;
   
@@ -178,16 +178,25 @@ input:focus, textarea:focus {
 .t-contacto{
   text-align: left !important;
   margin-top: 23vh;
-  margin-left: 10vw;
-  font-size: 35px;
+  margin-left: 9vw;
+  font-size: 17vh;
+  font-weight: 200;
+  color: #6667AB;
+}
+
+.t-contacto2{
+  text-align: left !important;
+  margin-left: 9.5vw;
+  font-size: 14.5px;
   font-weight: 200;
   color: #6667AB;
   margin-bottom: 5vh;
+  margin-top: -2vh;
 }
 
 .parrafo-contacto{
   text-align: left !important;
-  margin-left: 10vw;
+  margin-left: 9vw;
   color: #737373;
   margin-right: 40px;
   font-size: 16px;

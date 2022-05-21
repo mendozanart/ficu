@@ -1,13 +1,13 @@
 import React, {useEffect} from "react";
-import "./nosotros.css";
+import "../nosotros/nosotros.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import Carousel2 from "../carousel/Carousel2";
+import Carousel5 from "../carousel/Carousel5";
 import "animate.css";
 
 
 
 
-function Nosotros() {
+function Artistas() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -17,7 +17,7 @@ function Nosotros() {
     <>
       {/*********** Banner **************/}
 
-<Carousel2/>
+<Carousel5/>
 <div style={{height:"75vh"}}></div>
 
 {/*<div className="gradient-nosotros w-100 h-100">
@@ -43,39 +43,9 @@ function Nosotros() {
 
       {/*********** Cards **************/}
 
-      
-      <h3 className="t-icono">Miembros Fundadores</h3>
-          <p className="p-icono">Aquí nuestros miembros fundadores</p>
 
-    <div className="cards">
-
-    <div className="container-profile">
-      <div className="profile-photo">
-      <h3 className="profile-title">Lia Valeri</h3>
-        <h4 className="profile-subtitle">Fundadora</h4>
-        {/*<p className="profile-p">Venezolano</p>*/}
-      </div>
-    </div>
-
-    <div className="container-profile">
-      <div className="profile-photo2">
-      <h3 className="profile-title">Eduardo Ciancia</h3>
-        <h4 className="profile-subtitle">Tesorero</h4>
-        {/*<p className="profile-p">Venezolano</p>*/}
-      </div>
-    </div>
-
-    <div className="container-profile">
-      <div className="profile-photo3">
-      <h3 className="profile-title">Merwin Molina</h3>
-        <h4 className="profile-subtitle">Secretario</h4>
-        {/*<p className="profile-p">Venezolano</p>*/}
-      </div>
-    </div>
-    </div>
-
-    <h3 className="t-icono">Consejo consultor</h3>
-          <p className="p-icono">Los miembros del consejo consultor</p>
+    <h3 className="t-icono">Nuestros Artistas</h3>
+          <p className="p-icono">Los artistas que nos acompañan</p>
 
 
           <div className="cards">
@@ -126,4 +96,4 @@ function Nosotros() {
   );
 }
 
-export default Nosotros;
+export default Artistas;

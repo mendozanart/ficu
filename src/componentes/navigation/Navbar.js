@@ -34,6 +34,7 @@ function Navbar() {
 <LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/">Home</LinkRouter>
 <LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/eventos">Eventos</LinkRouter>
 <LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/nosotros">Nosotros</LinkRouter>
+<LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/artistas">Artistas</LinkRouter>
 <LinkRouter className="nav-link" style={{color:"#ffffff", fontSize:"18px"}} to="/contacto">Contacto</LinkRouter>
 </div>
 </div>

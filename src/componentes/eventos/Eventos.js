@@ -57,9 +57,11 @@ function Eventos() {
       }}>Eventos</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography sx={{
+        color: '#737373'}}>
+                        <ul>
+              <li>11/06  -  <strong>Buenos Aires celebra Venezuela</strong></li>
+            </ul>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -78,9 +80,9 @@ function Eventos() {
       }}>Charlas</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography sx={{
+        color: '#737373'}}>
+            Nuevas fechas por definirse en el calendario de eventos.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -99,9 +101,9 @@ function Eventos() {
       }}>Talleres</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography sx={{
+        color: '#737373'}}>
+            Nuevas fechas por definirse en el calendario de eventos.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -134,9 +136,9 @@ function Eventos() {
       }}>Eventos</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography sx={{
+        color: '#737373'}}>
+            Nuevas fechas por definirse en el calendario de eventos.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -155,9 +157,9 @@ function Eventos() {
       }}>Charlas</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography sx={{
+        color: '#737373'}}>
+            Nuevas fechas por definirse en el calendario de eventos.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -176,9 +178,9 @@ function Eventos() {
       }}>Talleres</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography sx={{
+        color: '#737373'}}>
+            Nuevas fechas por definirse en el calendario de eventos.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -212,9 +214,9 @@ function Eventos() {
       }}>Eventos</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography sx={{
+        color: '#737373'}}>
+            Nuevas fechas por definirse en el calendario de eventos.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -233,9 +235,9 @@ function Eventos() {
       }}>Charlas</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography sx={{
+        color: '#737373'}}>
+            Nuevas fechas por definirse en el calendario de eventos.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -254,9 +256,9 @@ function Eventos() {
       }}>Talleres</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography sx={{
+        color: '#737373'}}>
+            Nuevas fechas por definirse en el calendario de eventos.
           </Typography>
         </AccordionDetails>
       </Accordion>

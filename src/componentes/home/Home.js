@@ -193,50 +193,60 @@ function Home() {
             </div>
           </div>
 
-          {/*********** Actividades ***********/}
+          {/*********** Ejes tematicos ***********/}
 
-          <h3 className="t-icono">Nuestras actividades</h3>
-          <p className="p-icono">Nuestros lugares de encuentro</p>
+          <h3 className="t-icono">Nuestros ejes</h3>
+          <p className="p-icono">Ejes temáticos</p>
 
           <LinkRouter to="/eventos">
             <div className="contenedor-iconos">
               <div className="iconos">
-                <div className="div-icono">
-                  <div className="actividades-photo"></div>
+                <div className="div-ejes">
+                  <div className="ejes-photo"></div>
 
-                  <h3 className="st-icono">CHARLAS</h3>
-                  <p className="sp-icono">Charlas, talleres y seminarios</p>
+                  <h3 className="st-ejes">CULTURAL Y ARTES</h3>
+                  <p className="sp-ejes"></p>
                 </div>
               </div>
 
               <div className="iconos">
-                <div className="div-icono">
-                  <div className="actividades-photo2"></div>
+                <div className="div-ejes">
+                  <div className="ejes-photo2"></div>
 
-                  <h3 className="st-icono">EVENTOS</h3>
-                  <p className="sp-icono">Eventos y encuentros</p>
+                  <h3 className="st-ejes">FORMACIÓN Y OFICIOS</h3>
+                  <p className="sp-ejes"></p>
                 </div>
               </div>
 
-              <div className="iconos" style={{ marginTop: "-0.1px" }}>
-                <div className="div-icono">
-                  <div className="actividades-photo3"></div>
+              <div className="iconos" style={{ marginTop: "-4vh" }}>
+                <div className="div-ejes">
+                  <div className="ejes-photo3"></div>
 
-                  <h3 className="st-icono">ENCUENTRO</h3>
-                  <p className="sp-icono">Creación de espacion de encuentro.</p>
+                  <h3 className="st-ejes">EMPRENDIMIENTOS</h3>
+                  <p className="sp-ejes"></p>
                 </div>
               </div>
 
-              <div className="iconos" style={{ marginTop: "-0.05px" }}>
-                <div className="div-icono">
-                  <div className="actividades-photo4"></div>
+              <div className="iconos" style={{ marginTop: "-5vh" }}>
+                <div className="div-ejes">
+                  <div className="ejes-photo4"></div>
 
-                  <h3 className="st-icono">ACOMPAÑAMIENTO</h3>
-                  <p className="sp-icono">
-                    Sistemas de comunicación y acompañamiento.
+                  <h3 className="st-ejes">LIDERAZGOS</h3>
+                  <p className="sp-ejes">
                   </p>
                 </div>
               </div>
+
+              <div className="iconos" style={{ marginTop: "-4vh" }}>
+                <div className="div-ejes">
+                  <div className="ejes-photo5"></div>
+
+                  <h3 className="st-ejes">ACOMPAÑAMIENTO PSICOEMOCIONAL</h3>
+                  <p className="sp-ejes">
+                  </p>
+                </div>
+              </div>
+
             </div>
           </LinkRouter>
 
@@ -320,20 +330,55 @@ function Home() {
         </div>
       </div>
 
-      {/*********** Frase  ***********/}
 
-      {/*      <div className="container-presentacion">
-        <section class="section top-section3">
-          <div class="content-container content-theme-dark">
-            <div class="content-inner">
-              <div class="content-center">
-              <h3 className="t-eventos">Eventos</h3>
-              <h6 className="p-eventos">Enterate de los proximos eventos</h6>
+                {/*********** Actividades ***********/}
+
+                <h3 className="t-icono">Nuestras actividades</h3>
+          <p className="p-icono">Nuestros lugares de encuentro</p>
+
+          <LinkRouter to="/eventos">
+            <div className="contenedor-iconos">
+              <div className="iconos">
+                <div className="div-icono">
+                  <div className="actividades-photo"></div>
+
+                  <h3 className="st-icono">CHARLAS</h3>
+                  <p className="sp-icono">Charlas, talleres y seminarios</p>
+                </div>
+              </div>
+
+              <div className="iconos">
+                <div className="div-icono">
+                  <div className="actividades-photo2"></div>
+
+                  <h3 className="st-icono">EVENTOS</h3>
+                  <p className="sp-icono">Eventos y encuentros</p>
+                </div>
+              </div>
+
+              <div className="iconos" style={{ marginTop: "-0.1px" }}>
+                <div className="div-icono">
+                  <div className="actividades-photo3"></div>
+
+                  <h3 className="st-icono">ENCUENTRO</h3>
+                  <p className="sp-icono">Creación de espacion de encuentro.</p>
+                </div>
+              </div>
+
+              <div className="iconos" style={{ marginTop: "-0.05px" }}>
+                <div className="div-icono">
+                  <div className="actividades-photo4"></div>
+
+                  <h3 className="st-icono">ACOMPAÑAMIENTO</h3>
+                  <p className="sp-icono">
+                    Sistemas de comunicación y acompañamiento.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
-  </div>*/}
+          </LinkRouter>
+
+
 
       {/*********** Frase  ***********/}
 

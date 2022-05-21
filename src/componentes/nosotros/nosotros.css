@@ -95,6 +95,54 @@
     border-color: #ffffff;
   }
 
+  .profile-photo4{
+    background-image: url(../nosotros/img/ANG.jpg);
+    background-size: cover;
+    width:200px;
+    height:200px;
+    margin:80px;
+    border-radius:220px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ffffff;
+  }
+
+  .profile-photo5{
+    background-image: url(../nosotros/img/ARE.jpg);
+    background-size: cover;
+    width:200px;
+    height:200px;
+    margin:80px;
+    border-radius:220px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ffffff;
+  }
+
+  .profile-photo6{
+    background-image: url(../nosotros/img/MON.jpeg);
+    background-size: cover;
+    width:200px;
+    height:200px;
+    margin:80px;
+    border-radius:220px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ffffff;
+  }
+
+  .profile-photo7{
+    background-image: url(../nosotros/img/NEL.jpg);
+    background-size: cover;
+    width:200px;
+    height:200px;
+    margin:80px;
+    border-radius:220px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ffffff;
+  }
+
   .profile-title{
     margin-top: 32vh;
     text-align: center;
@@ -122,5 +170,5 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 100px;
+  
   }
