@@ -290,14 +290,14 @@ function Home() {
               <div class="carousel-item">
                 <img src={home2} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 className="t-galeria">Carnavales</h5>
+                  <h5 className="t-galeria">Carnavales Calipso Caribe</h5>
                   <p className="p-galeria">Celebracion Carnavales 2022</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src={home4} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 className="t-galeria">Carnavales Calipso</h5>
+                  <h5 className="t-galeria">Carnavales Calipso Caribe</h5>
                   <p className="p-galeria">Celebracion Carnavales 2022</p>
                 </div>
               </div>
