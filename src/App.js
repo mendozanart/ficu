@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import Navbar from './componentes/navigation/Navbar';
+import Navbar2 from './componentes/navigation/Navbar';
 import Home from './componentes/home/Home'
 import Nosotros from './componentes/nosotros/Nosotros'
 import Eventos from './componentes/eventos/Eventos'
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar/>
+      <Navbar2/>
       <Routes>
       <Route path='*' element={<Home/>}/> 
       <Route path='/nosotros' element={<Nosotros/>}/>

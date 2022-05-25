@@ -17,11 +17,7 @@ function Navbar2() {
   return (
     <>
 
-      <nav className={
-          colorChange
-            ? "navbar navbar-light navbar-color fixed-top"
-            : "colorChange navbar navbar-light fixed-top"
-        }>
+      <nav className="navbar navbar-light navbar-color fixed-top">
         <div className="container-fluid">
           <LinkRouter to="/home">
             <img src={logo} alt="logo" width="95" />
@@ -56,6 +52,15 @@ function Navbar2() {
                 <LinkRouter
                   className="nav-link"
                   style={{ color: "#ffffff", fontSize: "18px" }}
+                  to="/eventos"
+                >
+                  Eventos
+                </LinkRouter>
+              </li>
+              <li className="nav-item">
+                <LinkRouter
+                  className="nav-link"
+                  style={{ color: "#ffffff", fontSize: "18px" }}
                   to="/nosotros"
                 >
                   Nosotros
@@ -65,16 +70,16 @@ function Navbar2() {
                 <LinkRouter
                   className="nav-link"
                   style={{ color: "#ffffff", fontSize: "18px" }}
-                  to="/unete"
+                  to="/artistas"
                 >
-                  Eventos
+                  Artistas
                 </LinkRouter>
               </li>
               <li className="nav-item">
                 <LinkRouter
                   className="nav-link"
                   style={{ color: "#ffffff", fontSize: "18px" }}
-                  to="/pcontacto"
+                  to="/contacto"
                 >
                   Contacto
                 </LinkRouter>

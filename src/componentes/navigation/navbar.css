@@ -1,3 +1,66 @@
+
+ /********************************************** M E D I A -Q U E R Y************************ */
+
+ @media screen and (min-width: 992px) and (max-width: 1280px) {
+   
+
+    nav{
+        width: 120vw !important;
+    }
+  
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+nav{
+    width: 100vw !important;
+}
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+
+    nav{
+        width: 100% !important;
+    }
+
+}
+
+
+@media screen and (max-width: 575px) {
+
+    nav{
+        width: 100vw !important;
+    }
+
+}
+
+
+@media screen and (min-width: 421px) and (max-width: 574px) {
+
+    nav{
+        width: 100vw !important;
+    }
+
+}
+
+
+@media screen and (max-width: 420px) {
+
+    nav{
+        width: 100vw !important;
+    }
+
+
+
+}
+
+
+
+
 .navbar-color{
     background-color: #6667AB;
 }
@@ -5,3 +68,8 @@
 .navbar-texto{
     color:#ffffff;
 }
+
+.prueba3{
+    z-index: 3;
+}
+
