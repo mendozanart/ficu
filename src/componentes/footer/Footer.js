@@ -13,16 +13,9 @@ import logogcba from "./gcba-01.svg"
 function Footer() {
   return (
     <>
-      <footer className="footer-color ">
+      <footer className="footer-color  ">
 
-        <div
-          className="container p-4 pb-0 "
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
+        <div className="container p-4 pb-0 footer-box-icons " style={{display: "flex",justifyContent: "space-between",alignItems: "center",}}>
 
 
           <div className="content-footer-logos " >

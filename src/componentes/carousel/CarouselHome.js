@@ -46,11 +46,11 @@ function CarouselHome() {
         <KeyboardArrowDownIcon className="animate__animated animate__fadeInDown arrow-info" />
 
      
-      {/*   <LinkRouter to="/eventos">
-          <button type="button" className="animate__animated animate__fadeInDown btn btn-header btn-primary">
+        <LinkRouter to="/eventos">
+          <button type="button" className="animate__animated animate__fadeInDown btn btn-header ">
             Próximos eventos
           </button>
-        </LinkRouter> */}
+        </LinkRouter>
 
       <Carousel
         responsive={responsive}
