@@ -13,52 +13,45 @@ function Carousel() {
 
 
 
-  return (
-    <>
+	return (
+		<>
+			
+			<LinkRouter to="/eventos">
+				<button type="button" className="animate__animated animate__fadeInDown btn btn-header btn-primary">
+					Próximos eventos
+				</button>
+			</LinkRouter>
 
-<LinkRouter to="/eventos">
-        <button type="button" className="animate__animated animate__fadeInDown btn btn-header btn-primary">
-          Próximos eventos
-        </button>
-      </LinkRouter>
+			<img src={Logo} alt="logo"  className="animate__animated animate__fadeInDown logo" />
 
-<img src={Logo} alt="logo" width="600" className="animate__animated animate__fadeInDown logo"/>
+			<div class="slideShow">
+				<div class="slide3" style={{}}>
+				</div>
 
-<div class="slideShow">
-  <div class="slide3" style={{}}>
-  </div>
+				<div class="slide2">
+				</div>
 
-  <div class="slide2">
-  </div>
-  
-  <div class="slide1">
-  </div>
-  
+				<div class="slide1">
+				</div>
 
-  
-  <div class="banner">
+				<div class="banner">
+					<div className="gradient">
+						<div className="content-header">
+							<h6 className="animate__animated animate__fadeInDown tituloheader"></h6>
+							<h6 className="animate__animated animate__fadeInDown tituloheader2"></h6>
+							<h6 className="animate__animated animate__fadeInDown subtituloheader2">Fundación para la integración Cultural</h6>
+							<KeyboardArrowDownIcon className="animate__animated animate__fadeInDown" sx={{ color: "#ffffff", width: "20vw", marginTop: "90vh", marginLeft: "40vw" }} />
+						</div>
+					</div>
 
-    
-  <div className="gradient w-100 vh-100">
-        <div className="content-header">
-            <h6 className="animate__animated animate__fadeInDown tituloheader"></h6>
-            <h6 className="animate__animated animate__fadeInDown tituloheader2"></h6>
-            <h6 className="animate__animated animate__fadeInDown subtituloheader2">Fundación para la integración Cultural</h6>
-            <KeyboardArrowDownIcon className="animate__animated animate__fadeInDown" sx={{ color: "#ffffff", width:"20vw", marginTop:"90vh", marginLeft:"40vw" }} />
-        </div>
-      </div>
+				</div>
 
-      
+			</div>
 
+		
 
-  </div>
-  
-</div>
-
-
-
-    </>
-  );
+		</>
+	);
 }
 
 export default Carousel;
