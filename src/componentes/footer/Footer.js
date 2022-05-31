@@ -24,68 +24,72 @@ function Footer() {
           }}
         >
 
-            
-          <div className="mt-4" style={{ display: "flex", flexDirection: "column" }}>
+
+          <div className="content-footer-logos " >
             <p class="footer-texto text-center p-3">Nos acompañan:</p>
-            <div>
-          <a
-                  href="https://fundacionacnur.org/"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Instagram"
-                  target="_blank"
-                >
-            <img src={logoacnur} alt="logo" width="90" />
-                </a>
-                <a
-                  href="https://www.iom.int/es"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Instagram"
-                  target="_blank"
-                >
-            <img
-              src={logooim}
-              alt="logo"
-              width="90"
-              style={{ marginTop: "1px", marginLeft:"30px"}}
-            />
-                </a>
-                </div>
+            <div className="footer-logos">
+              <a
+                href="https://fundacionacnur.org/"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Instagram"
+                target="_blank"
+                className="foo-log"
+              >
+                <img src={logoacnur} alt="logo" width="90" />
+              </a>
+              <a
+                href="https://www.iom.int/es"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Instagram"
+                target="_blank"
+                className="foo-log"
+              >
+                <img
+                  src={logooim}
+                  alt="logo"
+                  width="90"
+                 
+                />
+              </a>
+            </div>
 
 
 
-                <div >
-                <a
-                  href="https://www.iom.int/es"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Instagram"
-                  target="_blank"
-                >
-            <img
-              src={logoSSDDHH}
-              alt="logo"
-              width="90"
-              style={{ marginTop: "20px" }}
-            />
-                </a>
+            <div className="footer-logos" >
+              <a
+                href="https://www.iom.int/es"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Instagram"
+                target="_blank"
+                className="foo-log"
+              >
+                <img
+                  src={logoSSDDHH}
+                  alt="logo"
+                  width="90"
+                  
+                />
+              </a>
 
-                <a
-                  href="https://www.iom.int/es"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Instagram"
-                  target="_blank"
-                >
-            <img
-              src={logogcba}
-              alt="logo"
-              width="90"
-              style={{ marginTop: "20px",  marginLeft:"30px" }}
-            />
-                </a>
-                </div>
+              <a
+                href="https://www.iom.int/es"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Instagram"
+                target="_blank"
+                className="foo-log"
+              >
+                <img
+                  src={logogcba}
+                  alt="logo"
+                  width="90"
+                  
+                />
+              </a>
+            </div>
           </div>
 
 
@@ -93,7 +97,7 @@ function Footer() {
           <div >
             <div className="containerf p-4 pb-0">
               <section className="mb-4">
-                
+
                 {" "}
                 <a
                   href="https://www.facebook.com/somosficu"
@@ -120,7 +124,7 @@ function Footer() {
                   title="Instagram"
                   target="_blank"
                 >
-                <LinkedInIcon sx={{ color: "#ffffff", margin: "5px" }} />
+                  <LinkedInIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
                 <a
                   href="https://mobile.twitter.com/somosficu"
@@ -129,7 +133,7 @@ function Footer() {
                   title="Instagram"
                   target="_blank"
                 >
-                <TwitterIcon sx={{ color: "#ffffff", margin: "5px" }} />
+                  <TwitterIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
               </section>
             </div>
@@ -137,11 +141,11 @@ function Footer() {
         </div>
 
 
-        <div className='mt-5 mb-3' style={{alignItems:"center"}}>
-            <LinkRouter to="/" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Home</LinkRouter>
-            <LinkRouter to="/eventos" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Eventos</LinkRouter>
-            <LinkRouter to="/nosotros" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Nosotros</LinkRouter>
-            <LinkRouter to="/contacto" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Contacto</LinkRouter>
+        <div className='content-footer-links'>
+            <LinkRouter to="/" className="footer-links" >Home</LinkRouter>
+            <LinkRouter to="/eventos" className="footer-links">Eventos</LinkRouter>
+            <LinkRouter to="/nosotros" className="footer-links" >Nosotros</LinkRouter>
+            <LinkRouter to="/contacto" className="footer-links" >Contacto</LinkRouter>
         </div>
 
         <div className="footer-texto text-center p-3">
