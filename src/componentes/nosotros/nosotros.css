@@ -1,4 +1,64 @@
+/* PRINCIPIO MEDIA QUERY */
 
+
+  /* responsive-movil */
+
+  @media (min-width: 200px) and (max-width: 767px){
+
+    .subt-nosotros{
+      color:#ffffff ;
+      position: absolute;
+      top: 70% !important;
+      left: 28% !important;
+      font-weight: 100;
+      font-size: 10px !important;
+      text-align: center;
+      z-index: 2;
+    }
+  
+    .titulo-nosotros{
+      color:#ffffff ;
+      position: absolute;
+      top: 50% !important;
+      left: 24% !important;
+      font-weight: 100;
+      font-size: 40px !important;
+      text-align: center;
+      z-index: 2;
+    }
+
+  }
+  
+  
+  
+  
+  
+  
+  /* responsive-tablet */
+  
+  @media (min-width: 767px) and (max-width: 991px){
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  /* responsive-pc */
+  
+  @media (min-width: 991px) and (max-width: 1920px){
+  
+  
+  
+  }
+  
+  
+  
+  
+  /* FINAL MEDIA QUERY */
 
 
 .banner-image-nosotros{
