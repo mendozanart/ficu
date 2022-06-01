@@ -37,45 +37,49 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
+
+   .navbar{
+        background-color: #6667AB;
+    }
 
     .navbar-collapse{
         justify-content: center !important;
         
     }
+   
+  
   
 
 }
 
 
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
 
-    .navbar-collapse{
-        justify-content: center !important;
-        
-    }
+    
   
 
 }
 
 
 
-@media screen and (min-width: 421px) and (max-width: 575px) {
+@media screen and (max-width: 575px) {
+
+    .navbar{
+        background-color: #6667AB;
+    }
 
     .navbar-collapse{
         justify-content: center !important;
         
     }
-  
+   
 }
 
 
-@media screen and (max-width: 420px) {
-    .navbar-collapse{
-        justify-content: center !important;
-        
-    }
+/* @media screen and (max-width: 420px) {
+   
 
 
-}
+} */
