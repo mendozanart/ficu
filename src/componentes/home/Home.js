@@ -34,8 +34,7 @@ function Home() {
 
 
 
-		{/* 	<CarouselHome/> */}
-
+			<CarouselHome/>
 
 			<div className="container-presentacion">
 				<section class="section top-section">
@@ -60,6 +59,10 @@ function Home() {
 					</div>
 				</section>
 			</div>
+
+
+
+
 			{/*****video */}
 
 			<div className="container-video">
