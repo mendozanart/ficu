@@ -18,7 +18,7 @@ function Nosotros() {
       {/*********** Banner **************/}
 
 <Carousel2/>
-<div style={{height:"75vh"}}></div>
+<div style={{height:"10vh"}}></div>
 
 {/*<div className="gradient-nosotros w-100 h-100">
       <div className="banner-image-nosotros w-100 h-100 d-flex justify-content-center align-items-center">

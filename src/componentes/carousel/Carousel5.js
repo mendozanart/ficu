@@ -1,53 +1,86 @@
 import React from "react";
-import '../carousel/carousel.scss'
+import cultura1 from '../home/img/cultura1.jpg'
+import cultura2 from '../home/img/cultura2.jpg'
+import cultura3 from '../home/img/cultura3.jpg'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import '../home/home.css'
+import '../artistas/artistas.css'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import 'animate.css';
 
 
+import Logo from "../navigation/logo2.png";
+import { Link as LinkRouter } from "react-router-dom";
 
 
-function Carousel4() {
+function Carousel5() {
 
-
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 1,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
 
   return (
     <>
-
-
-<div class="slideShow">
-  <div class="slide7">
-  </div>
-
-  <div class="slide7">
-  </div>
+      <div className="carousel-home-p">
   
-  <div class="slide7">
-  </div>
-  
+        <div className="carousel-gradiente"> </div>
 
-  
-  <div class="banner">
+        
+        <h6 className="animate__animated animate__fadeInDown titulo-artistas">ARTISTAS</h6>
+        <h6 className="animate__animated animate__fadeInDown subt-artistas">Conoce los artistas que nos acompañan</h6>
+        <KeyboardArrowDownIcon className="animate__animated animate__fadeInDown arrow-info" />
 
+     
+{/*        <LinkRouter to="/eventos">
+          <button type="button" className="animate__animated animate__fadeInDown btn btn-header ">
+            Próximos eventos
+          </button>
+  </LinkRouter>*/}
 
-  <div className="gradient w-100 vh-100">
-        <div className="content-header">
-            <h6 className="animate__animated animate__fadeInDown tituloheader"></h6>
-            <h6 className="animate__animated animate__fadeInDown tituloheaderartistas">ARTISTAS</h6>
-            <h6 className="animate__animated animate__fadeInDown subtituloheaderartistas">Mano a mano con nuestros artistas</h6>
-            <KeyboardArrowDownIcon className="animate__animated animate__fadeInDown" sx={{ color: "#ffffff", width:"20vw", marginTop:"90vh", marginLeft:"40vw" }} />
+      <Carousel
+        responsive={responsive}
+        draggable={true}
+        infinite={true}
+        autoPlay={true}
+        autoPlaySpeed={2000}
+        transitionDuration={2000}
+        arrows={false}
+
+      >
+        <div>
+          {" "}
+          <img src={cultura1} alt='cultura' className="d-block w-100" />
+
         </div>
+        <div>
+          {" "}
+          <img src={cultura2} alt='cultura' className="d-block w-100" />
+        </div>
+        <div>
+          {" "}
+          <img src={cultura3} alt='cultura' className="d-block w-100" />
+        </div>
+      </Carousel>
+      
       </div>
-
-
-
-  </div>
-</div>
-
-
-
     </>
   );
 }
 
-export default Carousel4;
+export default Carousel5;

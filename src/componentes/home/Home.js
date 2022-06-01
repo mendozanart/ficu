@@ -34,7 +34,8 @@ function Home() {
 
 
 
-			<CarouselHome/>
+		<CarouselHome/> 
+
 
 			<div className="container-presentacion">
 				<section class="section top-section">

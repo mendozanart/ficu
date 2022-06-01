@@ -4,7 +4,7 @@ import "./admin.css";
 
 /* icons */
 import { BiUser } from 'react-icons/bi';
-import { FiUserPlus } from 'react-icons/fi';
+/*import { FiUserPlus } from 'react-icons/fi';*/
 import { IoIosNotifications } from 'react-icons/io';
 import { FiFile } from 'react-icons/fi';
 
@@ -40,7 +40,7 @@ const Admin = () => {
                             Sign Up
                         </a>
                         <a href="">
-                            <FiUserPlus className="icon-admin-link" />
+                            {/*<FiUserPlus className="icon-admin-link" />*/}
                             Sign Out
                         </a>
                     </div>
