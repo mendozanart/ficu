@@ -138,6 +138,7 @@ function Footer() {
             <LinkRouter to="/" className="footer-links" >Home</LinkRouter>
             <LinkRouter to="/eventos" className="footer-links">Eventos</LinkRouter>
             <LinkRouter to="/nosotros" className="footer-links" >Nosotros</LinkRouter>
+            <LinkRouter to="/artistas" className="footer-links" >Artistas</LinkRouter>
             <LinkRouter to="/contacto" className="footer-links" >Contacto</LinkRouter>
         </div>
 

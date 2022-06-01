@@ -23,7 +23,6 @@ function Pcontacto() {
       {/*********** Banner **************/}
 
       <Carousel4/>
-      <div style={{height:"70vh"}}></div>
 
 {/*      <div className="banner-image-contacto w-100 vh-100 d-flex justify-content-center align-items-center">
         <div className="content-header">
