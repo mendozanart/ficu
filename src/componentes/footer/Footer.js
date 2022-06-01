@@ -141,6 +141,7 @@ function Footer() {
             <LinkRouter to="/" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Home</LinkRouter>
             <LinkRouter to="/eventos" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Eventos</LinkRouter>
             <LinkRouter to="/nosotros" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Nosotros</LinkRouter>
+            <LinkRouter to="/artistas" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Artistas</LinkRouter>
             <LinkRouter to="/contacto" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Contacto</LinkRouter>
         </div>
 
