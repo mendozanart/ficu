@@ -134,20 +134,12 @@ function Footer() {
         </div>
 
 
-<<<<<<< HEAD
-        <div className='mt-5 mb-3' style={{alignItems:"center"}}>
-            <LinkRouter to="/" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Home</LinkRouter>
-            <LinkRouter to="/eventos" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Eventos</LinkRouter>
-            <LinkRouter to="/nosotros" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Nosotros</LinkRouter>
-            <LinkRouter to="/artistas" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Artistas</LinkRouter>
-            <LinkRouter to="/contacto" style={{margin:'10px', textDecoration:'none', color:'#ffffff'}}>Contacto</LinkRouter>
-=======
         <div className='content-footer-links'>
             <LinkRouter to="/" className="footer-links" >Home</LinkRouter>
             <LinkRouter to="/eventos" className="footer-links">Eventos</LinkRouter>
             <LinkRouter to="/nosotros" className="footer-links" >Nosotros</LinkRouter>
+            <LinkRouter to="/artistas" className="footer-links" >Artistas</LinkRouter>
             <LinkRouter to="/contacto" className="footer-links" >Contacto</LinkRouter>
->>>>>>> ba7643d84a96c9fa9b6d3080d536711f2b8bb40d
         </div>
 
         <div className="footer-texto text-center p-3">

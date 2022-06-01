@@ -34,7 +34,7 @@ function Home() {
 
 
 
-		{/* 	<CarouselHome/> */}
+		<CarouselHome/> 
 
 
 			<div className="container-presentacion">

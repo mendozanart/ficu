@@ -172,3 +172,25 @@
   flex-direction: row;
   
   }
+
+  .subt-nosotros{
+    color:#ffffff ;
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .titulo-nosotros{
+    color:#ffffff ;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-weight: 100;
+    font-size: 100px;
+    text-align: center;
+    z-index: 2;
+  }

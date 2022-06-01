@@ -21,7 +21,7 @@ function Eventos() {
 
 
 <Carousel3/>
-<div style={{height:"75vh"}}></div>
+<div style={{height:"10vh"}}></div>
 {/*
         <div className="banner-image-unete w-100 vh-100 d-flex justify-content-center align-items-center">
           <div className="content-header">
