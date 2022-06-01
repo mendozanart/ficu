@@ -1,0 +1,68 @@
+.box-admin{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    
+}
+
+.pru{
+    height: 50vh;
+    background: blue;
+    margin-top: 20vh;
+}
+
+.relleno{
+    background-color: #6667AB;
+    height: 15vh;
+}
+
+aside {
+    color: #fff;
+    width: 250px;
+    text-align: center;
+    height: 80vh;
+    background-color: #6667AB;
+    border-radius: 20px;
+    margin: 20px;
+   
+   
+  }
+
+  .admin-link{
+    display: flex;
+    flex-direction: column;
+   padding: 20px;
+    
+  }
+  
+  aside a {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    -webkit-tap-highlight-color:transparent;
+    text-align: left;
+  }
+
+  aside a:hover {
+    background: white;
+    color: #6667AB;
+    border-radius: 10px;
+    
+  }
+
+  aside p{
+      padding: 10px 0px;
+      border-bottom: 1px solid white;
+  }
+  
+.icon-admin-link{
+    margin: 10px;
+}
+  
+
+
+
+  
