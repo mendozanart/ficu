@@ -13,7 +13,7 @@ import Logo from "../navigation/logo2.png";
 import { Link as LinkRouter } from "react-router-dom";
 
 
-function Carousel3() {
+function Carousel6() {
 
   const responsive = {
     superLargeDesktop: {
@@ -42,8 +42,8 @@ function Carousel3() {
         <div className="carousel-gradiente"> </div>
 
         
-        <h6 className="animate__animated animate__fadeInDown titulo-eventos">EVENTOS</h6>
-        <h6 className="animate__animated animate__fadeInDown subt-eventos">Entérate de todo lo que esta por llegar</h6>
+        <h6 className="animate__animated animate__fadeInDown titulo-evento">FESTIVAL DEL REENCUENTRO 2021</h6>
+        <h6 className="animate__animated animate__fadeInDown subt-evento">Tte. Gral. Juan Domingo Perón 3326, CABA.</h6>
         <KeyboardArrowDownIcon className="animate__animated animate__fadeInDown arrow-info" />
 
      
@@ -83,4 +83,4 @@ function Carousel3() {
   );
 }
 
-export default Carousel3;
+export default Carousel6;

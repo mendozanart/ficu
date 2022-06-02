@@ -4,6 +4,7 @@ import Navbar from './componentes/navigation/Navbar';
 import Home from './componentes/home/Home'
 import Nosotros from './componentes/nosotros/Nosotros'
 import Eventos from './componentes/eventos/Eventos'
+import Evento from './componentes/eventos/Evento'
 import Pcontacto from './componentes/contacto/Pcontacto'
 import Artistas from './componentes/artistas/Artistas'
 import Footer from './componentes/footer/Footer'
@@ -42,6 +43,7 @@ function App() {
           <Route path="*" element={<Home />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/eventos" element={<Eventos />} />
+          <Route path="/evento" element={<Evento />} />
           <Route path="/artistas" element={<Artistas />} />
           <Route path="/contacto" element={<Pcontacto />} />
           <Route path="/admin" element={<Admin />} />

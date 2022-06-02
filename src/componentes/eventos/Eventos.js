@@ -9,10 +9,11 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Carousel3 from "../carousel/Carousel3";
 import "animate.css";
 
-import Cards from './cards/Cards'
+
 
 import Cards2 from './cards/Cards2'
-import CarouselEvents from "./cards/CarouselEvents";
+import Galeria from './galeria/Galeria'
+
 
 function Eventos() {
 
@@ -41,13 +42,13 @@ function Eventos() {
 				{/**************Junio  **********/}
 
 
-				<h3 className="title-mes-events">Proximos Eventos</h3>
+				<h3 className="title-mes-events">Próximos Eventos</h3>
 				<p className="text-content-events">Asiste a nuestros eventos del mes</p>
 
 				{/************** Acordeon Junio *******/}
 
 
-			{/* 	<Cards2/> */}
+			<Cards2/>
 
 
 
@@ -59,10 +60,9 @@ function Eventos() {
 
 				{/************** Acordeon Julio *******/}
 
-				
+				<Cards2/>
 
 
-				<CarouselEvents/>
 
 
 
