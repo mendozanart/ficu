@@ -27,6 +27,15 @@
       z-index: 2;
     }
 
+    #form-div {
+      width: 350px !important;
+
+    }
+
+  
+
+
+
   }
   
   
@@ -96,24 +105,28 @@ html{    background:url("http://www.philippefercha.com/img/home-page.jpg") no-re
   text-align:center;
 }
 
-#form-main{
+/* #form-main{
   width:100%;
   float:left;
   padding-top:0px;
-}
+  border: 2px solid yellow;
+  background: blue;
+} */
 
 #form-div {
+
   background: #fff;
-  padding-left:35px;
+ /*  margin-top:25vh; */
+ /*  padding-left:35px;
   padding-right:35px;
   padding-top:35px;
-  padding-bottom:35px;
+  padding-bottom:35px; */
   width: 450px;
-  float: left;
+ /*  float: left;
   left: 50%;
   position: absolute;
   margin-top:20vh;
-  margin-left: 150px;
+  margin-left: 150px; */
 }
 
 .feedback-input {
@@ -205,14 +218,14 @@ input:focus, textarea:focus {
 }
 
 @media only screen and (max-width: 580px) {
-  #form-div{
+ /*  #form-div{
     left: 3%;
     margin-right: 3%;
     width: 88%;
     margin-left: 0;
     padding-left: 3%;
     padding-right: 3%;
-  }
+  } */
 }
 
 
@@ -260,18 +273,18 @@ input:focus, textarea:focus {
   
 }
 
-.t-contacto{
-  text-align: left !important;
-  margin-top: 23vh;
-  margin-left: 9vw;
+.title-contacto{
+/*   text-align: left !important; */
+/*   margin-top: 23vh;
+  margin-left: 9vw; */
   font-size: 17vh;
   font-weight: 200;
   color: #6667AB;
 }
 
 .t-contacto2{
-  text-align: left !important;
-  margin-left: 9.5vw;
+  /* text-align: left !important; */
+  /* margin-left: 9.5vw; */
   font-size: 14.5px;
   font-weight: 200;
   color: #6667AB;
@@ -279,12 +292,13 @@ input:focus, textarea:focus {
   margin-top: -2vh;
 }
 
-.parrafo-contacto{
-  text-align: left !important;
-  margin-left: 9vw;
+.text-contacto{
+/*   text-align: left !important;
+  margin-left: 9vw; */
   color: #737373;
-  margin-right: 40px;
+/*   margin-right: 40px; */
   font-size: 16px;
+ 
 }
 
 
@@ -308,4 +322,25 @@ input:focus, textarea:focus {
   font-size: 100px;
   text-align: center;
   z-index: 2;
+}
+
+/*  */
+
+.box-container-contact{
+  height: 110vh;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  
+}
+
+.info-contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: left !important;
+ 
+  
 }

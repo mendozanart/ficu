@@ -119,21 +119,21 @@
     margin-right: 40px;
   }
   
-  .t-contacto{
+ .t-contacto{
     text-align: left !important;
     margin-top: 23vh;
     margin-left: 10vw;
     font-size: 25px;
     font-weight: 300;
     color: #000000;
-  }
+  } 
   
-  .parrafo-contacto{
+.parrafo-contacto{
     text-align: left !important;
     margin-left: 10vw;
     color: #000000;
     margin-right: 40px;
-  }
+  } 
 
   .container-profile{
     margin-bottom: 20vh;
