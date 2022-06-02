@@ -74,12 +74,12 @@
         justify-content: center !important;
         
     }
+
+    nav img{
+        width: 50px !important;
+       
+    }
    
 }
 
 
-/* @media screen and (max-width: 420px) {
-   
-
-
-} */

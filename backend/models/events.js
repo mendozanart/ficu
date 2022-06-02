@@ -5,9 +5,10 @@ const eventsSchema= new mongoose.Schema ({
     titulo: {type:String, require:true},
     descripcion: {type:String, require:true},
     fecha:{type:String, require:true},
+    hora:{type:String, require:false},
     mes:{type:String, require:true},
     lugar: {type:String, require:true},
-    /* galeria: {type:Array, require:true}, */
+    galeria: {type:Array, require:false},
 
 })
 
