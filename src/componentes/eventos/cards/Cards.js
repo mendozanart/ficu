@@ -2,14 +2,13 @@ import React from "react";
 import './cards.scss'
 
 
+
 function Cards() {
   return (
     <>
 
-<div class="container">
+<div class="container-galeria">
 
-<h3 className="t-icono" >Actividades</h3>
-<p className="p-icono">Nuestra conexión con la comunidad</p>
 
   <div class="gallery-wrap">
     <div class="item item-1"></div>
