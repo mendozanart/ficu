@@ -19,7 +19,7 @@ function Navbar() {
 	return (
 		<>
 
-			<nav className={colorChange ? "navbar navbar-expand-lg navbar-dark navbar-color fixed-top" : "colorChange navbar navbar-expand-lg navbar-dark navbar-light fixed-top"}    >
+			<nav className={colorChange ? "navbar navbar-expand-lg navbar-dark navbar-color fixed-top" : "colorChange navbar navbar-expand-lg navbar-dark navbar-light fixed-top transparente"}    >
 				{/* <nav className="navbar navbar-expand-lg navbar-dark navbar-color fixed-top"    > */}
 				<div className="container-fluid">
 					<LinkRouter to="/home">

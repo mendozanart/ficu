@@ -1,4 +1,4 @@
-.box-admin{
+/* .box-admin{
     border: 2px solid green;
     display: flex;
     flex-direction: row;
@@ -11,14 +11,30 @@
     height: 50vh;
     background: blue;
     margin-top: 20vh;
-}
+} */
 
-.relleno{
+/* .relleno{
     background-color: #6667AB;
-    height: 15vh;
+    height: 12vh;
+} */
+
+.all-admin{
+  min-height: 100vh;
+  
 }
 
-aside {
+.bg-content{
+  
+background-color: #6667AB;
+color: #ffff !important;
+}
+
+.txt-white{
+  color: #ffff !important;
+}
+
+
+/* aside {
     color: #fff;
     width: 250px;
     text-align: center;
@@ -66,3 +82,4 @@ aside {
 
 
   
+ */
