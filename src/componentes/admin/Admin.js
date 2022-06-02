@@ -23,6 +23,7 @@ const Admin = () => {
             <div className="relleno"></div>
             <div className="hold-transition sidebar-mini all-admin">
                 <div className="wrapper">
+                    <h1>texto</h1>
                   
                   <Header/>
                  <Aside />
