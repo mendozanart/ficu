@@ -38,7 +38,27 @@
   
   @media (min-width: 767px) and (max-width: 991px){
   
+    .subt-nosotros{
+      color:#ffffff ;
+      position: absolute;
+      top: 70% !important;
+      left: 26% !important;
+      font-weight: 100;
+      font-size: 3vmin !important;
+      text-align: center;
+      z-index: 2;
+    }
   
+    .titulo-nosotros{
+      color:#ffffff ;
+      position: absolute;
+      top: 50% !important;
+      left: 25% !important;
+      font-weight: 100;
+      font-size: 10vmin!important;
+      text-align: center;
+      z-index: 2;
+    }
   
   }
   
@@ -236,8 +256,8 @@
   .subt-nosotros{
     color:#ffffff ;
     position: absolute;
-    top: 50%;
-    left: 36%;
+    top: 53%;
+    left: 32%;
     font-weight: 100;
     font-size: 30px;
     text-align: center;
@@ -248,7 +268,7 @@
     color:#ffffff ;
     position: absolute;
     top: 40%;
-    left: 35%;
+    left: 31%;
     font-weight: 100;
     font-size: 100px;
     text-align: center;
