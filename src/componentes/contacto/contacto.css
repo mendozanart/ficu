@@ -38,7 +38,27 @@
   
   @media (min-width: 767px) and (max-width: 991px){
   
+    .subt-contacto{
+      color:#ffffff ;
+      position: absolute;
+      top: 70% !important;
+      left: 30% !important;
+      font-weight: 100;
+      font-size: 3vmin !important;
+      text-align: center;
+      z-index: 2;
+    }
   
+    .titulo-contacto{
+      color:#ffffff ;
+      position: absolute;
+      top: 50% !important;
+      left: 24% !important;
+      font-weight: 100;
+      font-size: 10vmin !important;
+      text-align: center;
+      z-index: 2;
+    }
   
   }
   
@@ -271,8 +291,8 @@ input:focus, textarea:focus {
 .subt-contacto{
   color:#ffffff ;
   position: absolute;
-  top: 50%;
-  left: 38%;
+  top: 53%;
+  left: 35%;
   font-weight: 100;
   font-size: 30px;
   text-align: center;
@@ -283,7 +303,7 @@ input:focus, textarea:focus {
   color:#ffffff ;
   position: absolute;
   top: 40%;
-  left: 35%;
+  left: 32%;
   font-weight: 100;
   font-size: 100px;
   text-align: center;
