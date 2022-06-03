@@ -43,13 +43,18 @@ function App() {
           <Route path="*" element={<Home />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/eventos" element={<Eventos />} />
-          <Route path="/evento" element={<Evento />} />
+          <Route path="/evento/:id" element={<Evento />} />
           <Route path="/artistas" element={<Artistas />} />
           <Route path="/contacto" element={<Pcontacto />} />
           <Route path="/admin" element={<Admin />} />
         </Routes>
         <Footer />
       </BrowserRouter>
+
+    
+
+
+
     </div>
   );
 }

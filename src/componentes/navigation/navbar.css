@@ -4,6 +4,11 @@
     background-color: #6667AB;
 }
 
+
+.transparente{
+    background-color: transparent;
+}
+
 .navbar-texto{
     color:#ffffff;
     font-size: 18px;
