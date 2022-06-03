@@ -22,6 +22,11 @@
     color: #ffffff;
 }
 
+.footer-links:hover{
+    color: var(--color-yellow);
+
+}
+
 
 .content-footer-logos{
   

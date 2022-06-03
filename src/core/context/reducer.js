@@ -4,7 +4,9 @@ export const initialState = {
     user: null,
     filterCity: [],
     continent: [],
-    events:[]
+    events:[],
+    nosotros:[],
+    artistas:[]
 
 }
 
@@ -14,7 +16,9 @@ export const actionTypes = {
     USER: "USER",
     FILTER: "FILTER",
     CONTINENT: "CONTINENT",
-    EVENTSDB:"EVENTSDB"
+    EVENTSDB:"EVENTSDB",
+    NOSOTROSDB: "NOSOTROSDB",
+    ARTISTASDB:"ARTISTASDB"
 
 }
 
@@ -30,6 +34,21 @@ const reducer = (state, action) => {
                 events: action.events,
                 
             }
+
+            case "NOSOTROSDB":
+            return {
+                ...state,
+                nosotros: action.nosotros,
+                
+            }
+
+            case "ARTISTASDB":
+                return {
+                    ...state,
+                    artistas: action.artistas,
+                    
+                }
+    
 
         case "CITIESDB":
             return {

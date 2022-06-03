@@ -14,25 +14,31 @@ import Aside from "./Aside"
 import Content from "./Content";
 import Footer from "./Footer";
 
+
+
 const Admin = () => {
     return (
         <>
-            {/*********** Banner **************/}
 
-            {/* <Carousel /> */}
-            <div className="relleno"></div>
-            <div className="hold-transition sidebar-mini all-admin">
-                <div className="wrapper">
-                    <h1>texto</h1>
-                  
-                  <Header/>
-                 <Aside />
-           <Content/> 
-                {/* <Footer/> */}
+            <div id="box-admin-p">
+                <div className="relleno"></div>
 
+
+
+                <input type="checkbox" className="toggle-check-admin" id="toggle" hidden />
+                <label className="toggle-admin" htmlFor="toggle">Menu</label>
+
+                <div className="container-menu-admin">
+                    <nav className="menu-admin">
+                        <a href="#" className="item-admin">Eventos</a>
+                        <a href="#" className="item-admin">Nosotros</a>
+                        <a href="#" className="item-admin">Artistas</a>
+                        <a href="#" className="item-admin">Sign out</a>
+                    </nav>
                 </div>
-            </div>
 
+
+            </div>
 
         </>
     );

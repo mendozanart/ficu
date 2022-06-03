@@ -14,6 +14,7 @@ import "animate.css";
 import Cards2 from './cards/Cards2'
 import Cards from "./cards/Cards";
 import Gallery from './galeria/Galeria'
+import Galeria from "./galeria/Galeria";
 
 
 function Evento() {
@@ -40,36 +41,33 @@ function Evento() {
   </div>*/}
 
 
-<div className="box-events">
+			<div className="box-events">
 				{/************** Descripcion eventos  **********/}
-
 
 				<h3 className="title-mes-events">Festival del Reencuentro 2021</h3>
 				<p className="text-content-events">Tte. Gral. Juan Domingo Perón 3326, CABA.</p>
 
-			
+
 				<p className="parrafo-content-events">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tellus vulputate nulla magna odio aliquet. Integer pretium diam tincidunt netus lacus, mauris. Nullam proin in eget sit parturient. Est nunc sed diam eget enim libero egestas. Nisl risus ullamcorper quisque nunc rhoncus neque, orci, adipiscing tincidunt. Quis dolor amet, nec, lacus viverra egestas. Sagittis, cursus augue justo, leo purus vulputate lacus. Sagittis libero ridiculus ut nisi, sed velit.
-</p>
+				</p>
 
 
 			</div>
-
-
-
 
 
 			<div className="box-events">
 				{/************** Titulos eventos  **********/}
 
-
 				<h3 className="title-mes-events">Galeria</h3>
 				<p className="text-content-events">Fotos del Festival del Reencuentro</p>
 
-			
-
-  				<Cards/>
+				<Cards />
 
 			</div>
+
+
+
+			{/* <Galeria/> */}
 
 		</>
 	);

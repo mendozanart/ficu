@@ -143,6 +143,9 @@ function Footer() {
         </div>
 
         <div className="footer-texto text-center p-3">
+        <p>Eres Administrador?<LinkRouter to="/admin" className="footer-links" >Ingresa aquí</LinkRouter></p>
+
+        
           <p>
             © 2022{" "}
             <strong>Ficu - Fundación para la Integración Cultural</strong> -
