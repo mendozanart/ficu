@@ -18,7 +18,7 @@ const {cargaComentarios,obtenerComentarios,borrarComentario, modificarComentario
 const validator= require("../controllers/validator")
 
 
-Router.route("/events")
+Router.route("/events/:id")
 .get(ObtenerTodosDatos)
 
 

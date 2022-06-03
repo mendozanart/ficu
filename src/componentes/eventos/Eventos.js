@@ -42,20 +42,20 @@ function Eventos() {
 				{/**************Junio  **********/}
 
 
-				<h3 className="title-mes-events">Próximos Eventos</h3>
-				<p className="text-content-events">Asiste a nuestros eventos del mes</p>
+			{/* 	<h3 className="title-mes-events">Próximos Eventos</h3>
+				<p className="text-content-events">Asiste a nuestros eventos del mes</p> */}
 
 				{/************** Acordeon Junio *******/}
 
 
-			<Cards2/>
+		{/* 	<Cards2/> */}
 
 
 
 				{/**************Julio  **********/}
 
 
-				<h3 className="title-mes-events">Eventos Pasados</h3>
+				<h3 className="title-mes-events">Eventos </h3>
 				<p className="text-content-events">Conoce nuestros eventos</p>
 
 				{/************** Acordeon Julio *******/}

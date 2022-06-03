@@ -42,8 +42,8 @@ function Carousel6() {
         <div className="carousel-gradiente"> </div>
 
         
-        <h6 className="animate__animated animate__fadeInDown titulo-evento">FESTIVAL DEL REENCUENTRO 2021</h6>
-        <h6 className="animate__animated animate__fadeInDown subt-evento">Tte. Gral. Juan Domingo Perón 3326, CABA.</h6>
+        <h6 className="animate__animated animate__fadeInDown titulo-evento">EVENTOS CONFIRMADOS</h6>
+        <h6 className="animate__animated animate__fadeInDown subt-evento">Conoce los detalle de nuestros eventos.</h6>
         <KeyboardArrowDownIcon className="animate__animated animate__fadeInDown arrow-info" />
 
      

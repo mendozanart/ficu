@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./eventos.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Accordion from '@mui/material/Accordion';
@@ -15,9 +15,49 @@ import Cards2 from './cards/Cards2'
 import Cards from "./cards/Cards";
 import Gallery from './galeria/Galeria'
 import Galeria from "./galeria/Galeria";
+import '../eventos/cards/cards.scss'
+
+
+import { useParams } from "react-router-dom";
+import { actionTypes } from '../../core/context/reducer';
+import { useStateValue } from '../../core/context/StateProvider';
+import axios from 'axios';
+
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 
 function Evento() {
+
+	const responsive = {
+		superLargeDesktop: {
+			// the naming can be any, depends on you.
+			breakpoint: { max: 4000, min: 3000 },
+			items: 5
+		},
+		desktop: {
+			breakpoint: { max: 3000, min: 1024 },
+			items: 3
+		},
+		tablet: {
+			breakpoint: { max: 1024, min: 464 },
+			items: 2
+		},
+		mobile: {
+			breakpoint: { max: 464, min: 0 },
+			items: 1
+		}
+	};
+
+	const [{ events }, dispatch] = useStateValue()
+
+	const { id } = useParams();
+	const eventoSelected = events.filter((x) => x._id === id);
+
+	console.log(eventoSelected)
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -41,33 +81,41 @@ function Evento() {
   </div>*/}
 
 
-			<div className="box-events">
-				{/************** Descripcion eventos  **********/}
-
-				<h3 className="title-mes-events">Festival del Reencuentro 2021</h3>
-				<p className="text-content-events">Tte. Gral. Juan Domingo Perón 3326, CABA.</p>
-
-
-				<p className="parrafo-content-events">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tellus vulputate nulla magna odio aliquet. Integer pretium diam tincidunt netus lacus, mauris. Nullam proin in eget sit parturient. Est nunc sed diam eget enim libero egestas. Nisl risus ullamcorper quisque nunc rhoncus neque, orci, adipiscing tincidunt. Quis dolor amet, nec, lacus viverra egestas. Sagittis, cursus augue justo, leo purus vulputate lacus. Sagittis libero ridiculus ut nisi, sed velit.
-				</p>
-
-
-			</div>
-
-
-			<div className="box-events">
-				{/************** Titulos eventos  **********/}
-
-				<h3 className="title-mes-events">Galeria</h3>
-				<p className="text-content-events">Fotos del Festival del Reencuentro</p>
-
-				<Cards />
-
-			</div>
+			{eventoSelected.map(item => {
+				return (
+					<div className="box-events">
+						{/************** Descripcion eventos  **********/}
 
 
 
-			{/* <Galeria/> */}
+						<h3 className="title-mes-events">{item.titulo}</h3>
+						<p className="text-content-events">{item.lugar}</p>
+
+
+						<p className="parrafo-content-events">{item.descripcion}</p>
+
+
+						<h3 className="title-mes-events">Galeria</h3>
+						<p className="text-content-events">Fotos del Festival del Reencuentro</p>
+
+
+
+						<Carousel  responsive={responsive} >
+							<div className="mySwiper"><img src={process.env.PUBLIC_URL + `/img/eventos/${item.galeria[0]}`} alt="profile"></img></div>
+							<div className="mySwiper"><img src={process.env.PUBLIC_URL + `/img/eventos/${item.galeria[1]}`} alt="profile"></img></div>
+							<div className="mySwiper"><img src={process.env.PUBLIC_URL + `/img/eventos/${item.galeria[2]}`} alt="profile"></img></div>
+							<div className="mySwiper"><img src={process.env.PUBLIC_URL + `/img/eventos/${item.galeria[3]}`} alt="profile"></img></div>
+							<div className="mySwiper"><img src={process.env.PUBLIC_URL + `/img/eventos/${item.galeria[4]}`} alt="profile"></img></div>
+						</Carousel>
+
+					</div>
+
+
+
+				)
+			})}
+
+
 
 		</>
 	);
