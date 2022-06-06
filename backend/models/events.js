@@ -9,6 +9,9 @@ const eventsSchema= new mongoose.Schema ({
     mes:{type:String, require:true},
     lugar: {type:String, require:true},
     galeria: {type:Array, require:false},
+    video: {type:String, require:false},
+    colaboradores: {type:Array, require:false}
+
 
 })
 
