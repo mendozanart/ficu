@@ -6,7 +6,7 @@ const {ObtenerTodosLosDatos , ObtenerItinerary,likeDislike}= citiesController
 
 
 const eventsController = require("../controllers/eventsControllers")
-const {ObtenerTodosDatos, ObtenerMiembros, ObtenerArtistas }= eventsController
+const {ObtenerTodosDatos, ObtenerMiembros, ObtenerArtistas, ObtenerEvento }= eventsController
 
 
 const usersControllers =require("../controllers/usersControllers")
@@ -17,9 +17,11 @@ const {cargaComentarios,obtenerComentarios,borrarComentario, modificarComentario
 
 const validator= require("../controllers/validator")
 
-
-Router.route("/events/:id")
+Router.route("/events")
 .get(ObtenerTodosDatos)
+
+/* Router.route("/events/:id")
+.get(ObtenerEvento) */
 
 
 Router.route("/nosotros")

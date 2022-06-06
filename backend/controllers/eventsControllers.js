@@ -29,12 +29,10 @@ const eventsController={
     ObtenerEvento:async(req,resp)=>{
         let event
         //console.log(req.params)
-        const events =req.params.events
-
+        const events =req.params.event
         let error=null
-
         try {
-            event= await Events.find({events:titulo})
+            event= await Events.find({titulo:events})
             
         } catch (err) {
             error=err
