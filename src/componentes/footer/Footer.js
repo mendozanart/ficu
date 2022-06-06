@@ -9,6 +9,9 @@ import logoacnur from "./acnur2.svg";
 import logooim from "./oim2.svg";
 import logoSSDDHH from "./SSDDHH.svg"
 import logogcba from "./gcba-01.svg"
+import logoacasomos from "./logoacasomos-01.png"
+
+
 
 function Footer() {
   return (
@@ -83,12 +86,30 @@ function Footer() {
                 />
               </a>
             </div>
+
+            <div className="footer-logos d-flex justify-content-center" >
+              <a
+                href="https://acasomos.org/"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Instagram"
+                target="_blank"
+                className="foo-log"
+              >
+                <img
+                  src={logoacasomos}
+                  alt="logo"
+                  width="90"
+                  
+                />
+              </a>
+
+            </div>
           </div>
 
 
 
-          <div >
-            <div className="containerf p-4 pb-0">
+          <div className="containerf p-4 pb-0">
               <section className="mb-4">
 
                 {" "}
@@ -130,7 +151,9 @@ function Footer() {
                 </a>
               </section>
             </div>
-          </div>
+
+
+            
         </div>
 
 

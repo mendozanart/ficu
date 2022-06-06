@@ -9,7 +9,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Carousel6 from "../carousel/Carousel6";
 import "animate.css";
 
-
+import lgarepa from './lgarepa.jpeg'
 
 import Cards2 from './cards/Cards2'
 import Cards from "./cards/Cards";
@@ -96,17 +96,52 @@ function Evento() {
 
 
 						<h3 className="title-mes-events">Galeria</h3>
-						<p className="text-content-events">Fotos del Festival del Reencuentro</p>
+						<p className="text-content-events">Fotos del Evento</p>
 
 
 
-						<Carousel  responsive={responsive} >
+						<Carousel responsive={responsive} >
 							<div className="mySwiper"><img src={process.env.PUBLIC_URL + `/img/eventos/${item.galeria[0]}`} alt="profile"></img></div>
 							<div className="mySwiper"><img src={process.env.PUBLIC_URL + `/img/eventos/${item.galeria[1]}`} alt="profile"></img></div>
 							<div className="mySwiper"><img src={process.env.PUBLIC_URL + `/img/eventos/${item.galeria[2]}`} alt="profile"></img></div>
 							<div className="mySwiper"><img src={process.env.PUBLIC_URL + `/img/eventos/${item.galeria[3]}`} alt="profile"></img></div>
 							<div className="mySwiper"><img src={process.env.PUBLIC_URL + `/img/eventos/${item.galeria[4]}`} alt="profile"></img></div>
 						</Carousel>
+
+
+						<div className="box-video">
+
+
+
+							<iframe width="100%" height="600" src="https://www.youtube.com/embed/ckI0iMmD-jE" title="YouTube video player"
+								frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+
+						</div>
+
+						<div className="box-colaboradores">
+							<h3 className="title-mes-events">Colaboradores</h3>
+							<p className="text-content-events">Conoce a quienes nos acompaña</p>
+
+							<div className="container-colab-logo"> 
+								<div className="colab-logo-image">
+									<img src={lgarepa}></img>
+								</div>
+
+								<div className="colab-logo-image">
+									<img src={lgarepa}></img>
+								</div>
+								<div className="colab-logo-image">
+									<img src={lgarepa}></img>
+								</div>
+								<div className="colab-logo-image">
+									<img src={lgarepa}></img>
+								</div>
+
+							</div>	
+
+
+						</div>
 
 					</div>
 

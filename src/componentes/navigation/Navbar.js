@@ -50,6 +50,12 @@ function Navbar() {
 							</li>
 
 							<li className="nav-item">
+								<LinkRouter className="nav-link " to="/oficios"
+								>
+									Oficios</LinkRouter>
+							</li>
+
+							<li className="nav-item">
 								<LinkRouter className="nav-link " to="/contacto"
 								>
 									Contacto</LinkRouter>
