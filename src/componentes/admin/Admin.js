@@ -33,6 +33,7 @@ const Admin = () => {
                         <a href="#" className="item-admin">Eventos</a>
                         <a href="#" className="item-admin">Nosotros</a>
                         <a href="#" className="item-admin">Artistas</a>
+                        <a href="#" className="item-admin">Contacto</a>
                         <a href="#" className="item-admin">Sign out</a>
                     </nav>
                 </div>

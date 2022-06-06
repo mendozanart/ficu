@@ -1,7 +1,7 @@
 import React from "react";
-import cultura1 from '../home/img/cultura1.jpg'
-import cultura2 from '../home/img/cultura2.jpg'
-import cultura3 from '../home/img/cultura3.jpg'
+import cultura1 from '../home/img/ficu1.jpg'
+import cultura2 from '../home/img/ficu2.jpg'
+import cultura3 from '../home/img/ficu3.jpg'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import '../home/home.css'
