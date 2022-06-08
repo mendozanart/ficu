@@ -5,6 +5,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import logoacnur from "./acnur2.svg";
 import logooim from "./oim2.svg";
 import logoSSDDHH from "./SSDDHH.svg"
@@ -31,6 +32,7 @@ function Footer() {
                 title="Instagram"
                 target="_blank"
                 className="foo-log"
+                rel="noreferrer"
               >
                 <img src={logoacnur} alt="logo" width="90" />
               </a>
@@ -41,6 +43,7 @@ function Footer() {
                 title="Instagram"
                 target="_blank"
                 className="foo-log"
+                rel="noreferrer"
               >
                 <img
                   src={logooim}
@@ -61,6 +64,7 @@ function Footer() {
                 title="Instagram"
                 target="_blank"
                 className="foo-log"
+                rel="noreferrer"
               >
                 <img
                   src={logoSSDDHH}
@@ -77,6 +81,7 @@ function Footer() {
                 title="Instagram"
                 target="_blank"
                 className="foo-log"
+                rel="noreferrer"
               >
                 <img
                   src={logogcba}
@@ -95,6 +100,7 @@ function Footer() {
                 title="Instagram"
                 target="_blank"
                 className="foo-log"
+                rel="noreferrer"
               >
                 <img
                   src={logoacasomos}
@@ -119,6 +125,7 @@ function Footer() {
                   data-placement="top"
                   title="Facebook"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <FacebookIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
@@ -128,6 +135,7 @@ function Footer() {
                   data-placement="top"
                   title="Instagram"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <InstagramIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
@@ -137,6 +145,7 @@ function Footer() {
                   data-placement="top"
                   title="Instagram"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <LinkedInIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
@@ -146,8 +155,19 @@ function Footer() {
                   data-placement="top"
                   title="Instagram"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <TwitterIcon sx={{ color: "#ffffff", margin: "5px" }} />
+                </a>
+                <a
+                  href="https://www.facebook.com/somosficu"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="WhatsApp"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <WhatsAppIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
               </section>
             </div>
@@ -162,6 +182,7 @@ function Footer() {
             <LinkRouter to="/eventos" className="footer-links">Eventos</LinkRouter>
             <LinkRouter to="/nosotros" className="footer-links" >Nosotros</LinkRouter>
             <LinkRouter to="/artistas" className="footer-links" >Artistas</LinkRouter>
+            <LinkRouter to="/oficios" className="footer-links" >Oficios</LinkRouter>
             <LinkRouter to="/contacto" className="footer-links" >Contacto</LinkRouter>
         </div>
 

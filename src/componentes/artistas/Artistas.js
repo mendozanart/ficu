@@ -4,7 +4,8 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Carousel5 from "../carousel/Carousel5";
 import "animate.css";
 
-
+import { BiWorld } from 'react-icons/bi';
+import { IoLogoInstagram } from 'react-icons/io';
 
 import { actionTypes } from '../../core/context/reducer';
 import { useStateValue } from '../../core/context/StateProvider';
@@ -33,60 +34,34 @@ function Artistas() {
 			<Carousel5 />
 			<div style={{ height: "10vh" }}></div>
 
-			{/*<div className="gradient-nosotros w-100 h-100">
-      <div className="banner-image-nosotros w-100 h-100 d-flex justify-content-center align-items-center">
-        <div className="content-header">
-          <h1 className="animate__animated animate__fadeInDown tituloheader-nosotros">
-            NOSOTROS
-          </h1>
-          <h3 className="animate__animated animate__fadeInDown subtituloheader"></h3>
-          <KeyboardArrowDownIcon sx={{ color: "#ffffff", width: "5vw" }} />
-        </div>
-      </div>
-  </div>*/}
-
-
-
-
-			{/*********** Banner2 **************/}
-
-
-
-
-
-			{/*********** Cards **************/}
-
-
 			<h3 className="t-icono">Nuestros Artistas</h3>
 			<p className="p-icono">Los artistas que nos acompañan</p>
 
-
 			<div className="box-artistas">
 				{artistas.map(item => {
-					return(
+					return (
 						<div className="container-profile">
-						<div className="profile-photo">
-							<img src={process.env.PUBLIC_URL + `/img/artistas/${item.foto}`} alt="profile"></img>
-						</div>
-						<h3 className="profile-name">{item.nombre} {item.apellido}</h3>
-						<h4 className="profile-cargo">{item.profesion}</h4>
-						
+							<div className="artist-profile-photo">
+								<img src={process.env.PUBLIC_URL + `/img/artistas/${item.foto}`} alt="profile"></img>
+							</div>
+							<h3 className="profile-name">{item.nombre} {item.apellido}</h3>
+							<h4 className="profile-profesion">{item.profesion}</h4>
+							<p className="artist-bio" >{item.biografia}</p>
 
-					</div>
+							<div className="artist-links">
+
+								<a href={item.web} target="_blank" rel="noreferrer"><BiWorld className="artist-icons" /></a>
+								<a href={item.instagram} target="_blank" rel="noreferrer"><IoLogoInstagram className="artist-icons"/></a>
+								
+							</div>
+
+						</div>
 
 					)
-				
+
 				})}
-			
-
-
 
 			</div>
-
-
-
-
-
 
 
 		</>

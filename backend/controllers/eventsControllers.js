@@ -1,7 +1,7 @@
 const Events = require("../models/events")
 const Nosotros = require("../models/nosotros")
 const Artistas = require("../models/artistas")
-
+const Oficios = require("../models/oficios")
 
 const eventsController={
     ObtenerTodosDatos:async(req,resp)=>{
@@ -89,6 +89,29 @@ const eventsController={
  
          resp.json({
              response:error?"ERROR":{artistas},
+             success:error? false:true,
+             error:error
+         })
+     },
+
+
+     ObtenerOficio:async(req,resp)=>{
+        /*  console.log(req)
+         console.log(resp) */
+         let oficios
+ 
+         let error =null
+ 
+         try {
+             oficios = await Oficios.find()
+             
+         } catch (err) {
+             error =err
+             console.log(error)
+         }
+ 
+         resp.json({
+             response:error?"ERROR":{oficios},
              success:error? false:true,
              error:error
          })
