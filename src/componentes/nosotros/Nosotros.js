@@ -68,22 +68,22 @@ function Nosotros() {
 			<h3 className="t-icono">Nuestro Equipo</h3>
 			<p className="p-icono">Miembros que conforman nuestro quipo</p>
 
-			<div className="box-nosotros">
+			<div className="boxi-nosotros">
 
 				{nosotros.map(item => {
-					return(
-						<div className="container-profile">
-						<div className="profile-photo">
-							<img src={process.env.PUBLIC_URL + `/img/nosotros/${item.foto}`} alt="profile"></img>
-						</div>
-						<h3 className="profile-name">{item.nombre} {item.apellido}</h3>
-						<h4 className="profile-cargo">{item.cargo}</h4>
-						{/*<p className="profile-p">Venezolano</p>*/}
+					return (
+						<div className="container-profile-nos">
+							<div className="profile-photo-nos">
+								<img src={process.env.PUBLIC_URL + `/img/nosotros/${item.foto}`} alt="profile"></img>
+							</div>
+							<h3 className="profile-name">{item.nombre} {item.apellido}</h3>
+							<h4 className="profile-cargo">{item.cargo}</h4>
+							{/*<p className="profile-p">Venezolano</p>*/}
 
-					</div>
+						</div>
 
 					)
-				
+
 				})}
 
 			</div>

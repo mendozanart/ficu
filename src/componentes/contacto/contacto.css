@@ -344,3 +344,11 @@ input:focus, textarea:focus {
  
   
 }
+
+input.btn-primary {
+  margin-top: 15px;
+}
+
+.input-cont{
+ 
+}

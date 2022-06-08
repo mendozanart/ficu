@@ -209,7 +209,7 @@ function Home() {
 				<h3 className="t-nosotros">Nuestro equipo</h3>
 				<p className="p-nosotros">Conoce a quienes conforman a nuestro equipo</p>
 				<LinkRouter to="/nosotros">
-					<button type="button" class="btn btn-nosotros ">
+					<button type="button" className="btn btn-nosotros ">
 						Conócenos
 					</button>
 				</LinkRouter>

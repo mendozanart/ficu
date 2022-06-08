@@ -141,7 +141,7 @@
 
 /* kkkkkkkkkkkkkkkkkkk kkkkk      kkkkkkkkkkkk kkkkk kkkkkk */
 
-.box-nosotros {
+.boxi-nosotros {
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
@@ -150,7 +150,7 @@
 
 }
 
-.container-profile {
+.container-profile-nos {
   width: 240px;
   margin: 20px;
   display: flex;
@@ -175,7 +175,7 @@
 
 }
 
-.profile-photo {
+.profile-photo-nos {
   width: 220px;
   height: 220px;
   border-radius: 220px;
@@ -185,7 +185,7 @@
 
 }
 
-.profile-photo img {
+.profile-photo-nos img {
   width: 100%;
   height: 100%;
   object-fit: cover;
