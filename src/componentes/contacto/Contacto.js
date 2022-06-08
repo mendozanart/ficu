@@ -30,7 +30,7 @@ function Contacto() {
 						<div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true"><input type="text" name="b_a8d976e07599c33b061233d0d_0b2edb8fe4" tabIndex={-1} defaultValue /></div>
 						<div className="optionalParent ">
 							<div className="clear foot">
-								<input type="submit" defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-nosotros mt-4" />
+								<input type="submit" defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-nosotros mt-4" value="Enviar" />
 								</div>	
 						</div>
 					</div>

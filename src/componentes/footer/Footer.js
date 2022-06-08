@@ -160,7 +160,7 @@ function Footer() {
                   <TwitterIcon sx={{ color: "#ffffff", margin: "5px" }} />
                 </a>
                 <a
-                  href="https://www.facebook.com/somosficu"
+                  href="https://wa.me/message/SYMPIWMLKTE3O1"
                   data-toggle="tooltip"
                   data-placement="top"
                   title="WhatsApp"
