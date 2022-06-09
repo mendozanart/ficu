@@ -70,15 +70,7 @@ function Evento() {
 
 			<Carousel6 />
 			<div style={{ height: "10vh" }}></div>
-			{/*
-        <div className="banner-image-unete w-100 vh-100 d-flex justify-content-center align-items-center">
-          <div className="content-header">
-            <h1 className="animate__animated animate__fadeInDown tituloheader-unete">
-              EVENTOS
-            </h1>
-            <h3 className="animate__animated animate__fadeInDown subtituloheader"></h3>
-          </div>
-  </div>*/}
+
 
 
 			{eventoSelected.map(item => {
@@ -111,37 +103,41 @@ function Evento() {
 
 						<div className="box-video">
 
+							<div key={item.id} className='embed-responsive embed-responsive-4by3'>
+								<iframe className='embed-responsive-item' src={item.video} title="video" ></iframe>
+							</div>
 
-
-							<iframe width="100%" height="600" src="https://www.youtube.com/embed/ckI0iMmD-jE" title="YouTube video player"
-								frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen></iframe>
-
-						</div>
-
-						<div className="box-colaboradores">
-							<h3 className="title-mes-events">Colaboradores</h3>
-							<p className="text-content-events">Conoce a quienes nos acompaña</p>
-
-							<div className="container-colab-logo"> 
-								<div className="colab-logo-image">
-									<img src={lgarepa}></img>
-								</div>
-
-								<div className="colab-logo-image">
-									<img src={lgarepa}></img>
-								</div>
-								<div className="colab-logo-image">
-									<img src={lgarepa}></img>
-								</div>
-								<div className="colab-logo-image">
-									<img src={lgarepa}></img>
-								</div>
-
-							</div>	
 
 
 						</div>
+
+
+
+						
+
+							<div className="box-colaboradores">
+								  <h3 className="title-mes-events">Colaboradores</h3>
+								<p className="text-content-events">Conoce a quienes nos acompaña</p> 
+ 
+								<div className="container-colab-logo">
+								
+									{item.colaboradores.map((element) => {
+										return (
+											<div className="colab-logo-image">
+												<img src={process.env.PUBLIC_URL + `/img/colaborador/${element}`} ></img>
+											</div>
+										)
+									})}
+
+								</div>
+							</div>
+
+
+
+						
+
+
+
 
 					</div>
 
