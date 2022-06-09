@@ -5,7 +5,7 @@ import cultura3 from '../home/img/ficu3.jpg'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import '../home/home.css'
-import '../eventos/eventos.css'
+import '../oficios/oficios.css'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 
@@ -42,8 +42,8 @@ function Carousel7() {
                 <div className="carousel-gradiente"> </div>
 
 
-                <h6 className="animate__animated animate__fadeInDown titulo-artistas">OFICIOS</h6>
-                <h6 className="animate__animated animate__fadeInDown subt-artistas">Directorio de Colaboradores</h6>
+                <h6 className="animate__animated animate__fadeInDown titulo-oficios">OFICIOS</h6>
+                <h6 className="animate__animated animate__fadeInDown subt-oficios">Directorio de Colaboradores</h6>
                 <KeyboardArrowDownIcon className="animate__animated animate__fadeInDown arrow-info" />
 
 

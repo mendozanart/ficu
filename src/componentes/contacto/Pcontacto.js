@@ -90,7 +90,7 @@ function Pcontacto() {
 								<TwitterIcon sx={{ color: "#6667AB", margin: "5px" }} />
 							</a>
 							<a
-								href="https://mobile.twitter.com/somosficu"
+								href="https://wa.me/message/SYMPIWMLKTE3O1"
 								data-toggle="tooltip"
 								data-placement="top"
 								title=" WhatsApp"
