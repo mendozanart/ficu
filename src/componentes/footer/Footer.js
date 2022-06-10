@@ -187,7 +187,7 @@ function Footer() {
         </div>
 
         <div className="footer-texto text-center p-3">
-        <p>Eres Administrador?<LinkRouter to="/admin" className="footer-links" >Ingresa aquí</LinkRouter></p>
+       {/*  <p>Eres Administrador?<LinkRouter to="/admin" className="footer-links" >Ingresa aquí</LinkRouter></p> */}
 
         
           <p>

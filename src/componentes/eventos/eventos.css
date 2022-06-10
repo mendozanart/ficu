@@ -269,14 +269,12 @@
   /*Esta es la secc Video*/
 .box-video{
  margin: 5% 0px;
- height: 500px;
- border: 2px solid red;
+ height: 600px;
+
 
 }
 
-.xvideo{
-  background-color: blue;
-}
+
 
 
 /* colaboradores */
