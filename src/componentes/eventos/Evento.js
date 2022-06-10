@@ -29,6 +29,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import ReactPlayer from 'react-player'
+
 
 function Evento() {
 
@@ -103,38 +105,38 @@ function Evento() {
 
 						<div className="box-video">
 
-							<div key={item.id} className='embed-responsive embed-responsive-4by3'>
-								<iframe className='embed-responsive-item' src={item.video} title="video" ></iframe>
-							</div>
-
-
+							<ReactPlayer
+								url={item.video}
+								width="100%"
+								height="100%" 
+								controls/>
 
 						</div>
 
+						{/* <div className="box-colaboradores">
+							<h3 className="title-mes-events">Colaboradores</h3>
+							<p className="text-content-events">Conoce a quienes nos acompaña</p>
 
+							<div className="container-colab-logo">
 
-						
+								{item.colaboradores?.map((element) => {
 
-							<div className="box-colaboradores">
-								  <h3 className="title-mes-events">Colaboradores</h3>
-								<p className="text-content-events">Conoce a quienes nos acompaña</p> 
- 
-								<div className="container-colab-logo">
-								
-									{item.colaboradores.map((element) => {
-										return (
-											<div className="colab-logo-image">
-												<img src={process.env.PUBLIC_URL + `/img/colaborador/${element}`} ></img>
-											</div>
+									return (
+										<div className="colab-logo-image">
+											<img src={process.env.PUBLIC_URL + `/img/colaborador/${element}`} ></img>
+										</div>
+
 										)
-									})}
+									})	
 
-								</div>
+								}
+
 							</div>
+						</div> */}
 
 
 
-						
+
 
 
 
